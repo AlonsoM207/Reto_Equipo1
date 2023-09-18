@@ -30,8 +30,10 @@ struct ContentView: View {
                         .offset(y:-60)
                     // Botón que lleva a la página principal de la app
                     NavigationLink(destination: GameSelect()) {
-                        Text("Iniciar")
-                    } .buttonStyle(.borderedProminent)
+                        Text("Game Select")
+                            .font(.system(size: 30))
+                    }
+                    .buttonStyle(.borderedProminent)
                     
                 }
                     
