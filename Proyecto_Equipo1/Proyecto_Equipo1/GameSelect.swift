@@ -20,24 +20,65 @@ struct GameSelect: View {
                     .foregroundColor(Color("Text"))
                     .font(Font
                         .custom("Oxygen-Regular", size:35))
-                    .offset(y:-10)
+                    .offset(y:-100)
                 // Imagen para cada uno de los juegos que debe de llevar al juego correspondiente
                 //  Pero aún no se ha agregado
-                Image("Math")
-                    .resizable()
-                    .scaledToFit()
-                    .cornerRadius(20)
-                    .frame(width: 200, height: 200)
-                Image("Spelling")
-                    .resizable()
-                    .scaledToFit()
-                    .cornerRadius(20)
-                    .frame(width: 200, height: 200)
-                Image("Sign")
-                    .resizable()
-                    .scaledToFit()
-                    .cornerRadius(20)
-                    .frame(width: 200, height: 200)
+                ZStack{
+                    Rectangle()
+                        .foregroundColor(Color("GameStack"))
+                        .cornerRadius(20)
+                        .frame(width: 300, height: 125)
+                    HStack{
+                        Text("Matemáticas con señas")
+                            .foregroundColor(Color("Text"))
+                            .font(Font
+                                .custom("Oxygen-Regular", size:18))
+
+                        Image("Math")
+                            .resizable()
+                            .frame(width: 30, height:30)
+                    }
+                }
+                
+                ZStack{
+                    Rectangle()
+                        .foregroundColor(Color("GameStack"))
+                        .cornerRadius(20)
+                        .frame(width: 300, height: 125)
+                    HStack{
+                        Text("Deletrear palabras con señas")
+                            .foregroundColor(Color("Text"))
+                            .font(Font
+                                .custom("Oxygen-Regular", size:18))
+                        Image("Spelling")
+                            .resizable()
+                            .frame(width: 30, height:30)
+                    }
+                }
+                ZStack{
+                    Rectangle()
+                        .foregroundColor(Color("GameStack"))
+                        .cornerRadius(20)
+                        .frame(width: 300, height: 125)
+                    HStack{
+                        Text("Aprender señas")
+                            .foregroundColor(Color("Text"))
+                            .font(Font
+                                .custom("Oxygen-Regular", size:18))
+                        Image("Sign")
+                            .resizable()
+                            .frame(width: 30, height:30)
+                    }
+                }
+                        
+                
+                    
+                //Image("Math")
+                //    .resizable()
+                //    .scaledToFit()
+                //    .cornerRadius(20)
+                //    .frame(width: 200, height: 200)
+            
             }
         }
     }
