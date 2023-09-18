@@ -14,13 +14,22 @@ struct GameSelect: View {
             Color("Primary")
                 .edgesIgnoringSafeArea(.all)
             VStack{
-                // Título de la página
-                Text("Selección de Juegos")
-                    .multilineTextAlignment(.center)
-                    .foregroundColor(Color("Text"))
-                    .font(Font
-                        .custom("Oxygen-Regular", size:35))
-                    .offset(y:-30)
+                ZStack{
+                    Rectangle()
+                        .foregroundColor(.white)
+                        .cornerRadius(10)
+                        .frame(width: 350, height: 50)
+                        .padding()
+                        .offset(y: -40)
+                    // Título de la página
+                    Text("Selección de Juegos")
+                        .multilineTextAlignment(.center)
+                        .foregroundColor(Color("Text"))
+                        .font(Font
+                            .custom("Oxygen-Regular", size: 35))
+                        .offset(y: -40)
+                }
+                
                 // Imagen para cada uno de los juegos que debe de llevar al juego correspondiente
                 //  Pero aún no se ha agregado
                 ZStack{
@@ -28,15 +37,14 @@ struct GameSelect: View {
                         .foregroundColor(Color("GameStack1"))
                         .cornerRadius(20)
                         .frame(width: 300, height: 125)
-                    HStack{
+                    VStack{
+                        Image("Math")
+                            .resizable()
+                            .frame(width: 40, height: 40)
                         Text("Aprender señas")
                             .foregroundColor(.white)
                             .font(Font
                                 .custom("Oxygen-Regular", size:18))
-
-                        Image("Math")
-                            .resizable()
-                            .frame(width: 40, height:40)
                     }
                 }
                 .padding()
@@ -45,14 +53,14 @@ struct GameSelect: View {
                         .foregroundColor(Color("GameStack2"))
                         .cornerRadius(20)
                         .frame(width: 300, height: 125)
-                    HStack{
+                    VStack{
+                        Image("Spelling")
+                            .resizable()
+                            .frame(width: 40, height: 40)
                         Text("Deletrear palabras con señas")
                             .foregroundColor(Color("TextAlt"))
                             .font(Font
                                 .custom("Oxygen-Regular", size:18))
-                        Image("Spelling")
-                            .resizable()
-                            .frame(width: 40, height:40)
                     }
                 }
                 .padding()
@@ -61,26 +69,17 @@ struct GameSelect: View {
                         .foregroundColor(Color("GameStack3"))
                         .cornerRadius(20)
                         .frame(width: 300, height: 125)
-                    HStack{
+                    VStack{
+                        Image("Sign")
+                            .resizable()
+                            .frame(width: 40, height: 40)
                         Text("Matemáticas con señas")
                             .foregroundColor(.white)
                             .font(Font
                                 .custom("Oxygen-Regular", size:18))
-                        Image("Sign")
-                            .resizable()
-                            .frame(width: 40, height:40)
                     }
                 }
                 .padding()
-                        
-                
-                    
-                //Image("Math")
-                //    .resizable()
-                //    .scaledToFit()
-                //    .cornerRadius(20)
-                //    .frame(width: 200, height: 200)
-            
             }
         }
     }
