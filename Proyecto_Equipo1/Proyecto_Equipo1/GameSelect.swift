@@ -20,56 +20,58 @@ struct GameSelect: View {
                     .foregroundColor(Color("Text"))
                     .font(Font
                         .custom("Oxygen-Regular", size:35))
-                    .offset(y:-100)
+                    .offset(y:-30)
                 // Imagen para cada uno de los juegos que debe de llevar al juego correspondiente
                 //  Pero aún no se ha agregado
                 ZStack{
                     Rectangle()
-                        .foregroundColor(Color("GameStack"))
+                        .foregroundColor(Color("GameStack1"))
                         .cornerRadius(20)
                         .frame(width: 300, height: 125)
                     HStack{
-                        Text("Matemáticas con señas")
-                            .foregroundColor(Color("Text"))
+                        Text("Aprender señas")
+                            .foregroundColor(.white)
                             .font(Font
                                 .custom("Oxygen-Regular", size:18))
 
                         Image("Math")
                             .resizable()
-                            .frame(width: 30, height:30)
+                            .frame(width: 40, height:40)
                     }
                 }
-                
+                .padding()
                 ZStack{
                     Rectangle()
-                        .foregroundColor(Color("GameStack"))
+                        .foregroundColor(Color("GameStack2"))
                         .cornerRadius(20)
                         .frame(width: 300, height: 125)
                     HStack{
                         Text("Deletrear palabras con señas")
-                            .foregroundColor(Color("Text"))
+                            .foregroundColor(Color("TextAlt"))
                             .font(Font
                                 .custom("Oxygen-Regular", size:18))
                         Image("Spelling")
                             .resizable()
-                            .frame(width: 30, height:30)
+                            .frame(width: 40, height:40)
                     }
                 }
+                .padding()
                 ZStack{
                     Rectangle()
-                        .foregroundColor(Color("GameStack"))
+                        .foregroundColor(Color("GameStack3"))
                         .cornerRadius(20)
                         .frame(width: 300, height: 125)
                     HStack{
-                        Text("Aprender señas")
-                            .foregroundColor(Color("Text"))
+                        Text("Matemáticas con señas")
+                            .foregroundColor(.white)
                             .font(Font
                                 .custom("Oxygen-Regular", size:18))
                         Image("Sign")
                             .resizable()
-                            .frame(width: 30, height:30)
+                            .frame(width: 40, height:40)
                     }
                 }
+                .padding()
                         
                 
                     
