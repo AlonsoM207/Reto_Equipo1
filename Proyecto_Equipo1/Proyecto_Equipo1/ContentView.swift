@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var showWelcomeView = false
     
     var body: some View {
         NavigationView{
@@ -25,10 +26,14 @@ struct ContentView: View {
                         .font(Font
                             .custom("Oxygen-Regular", size:45))
                         .offset(y:-60)
-                    Button("Iniciar") {
-                        // CODIGO
+                    NavigationLink(destination: GameSelect()) {
+                        Button(action: {}) {
+                            .buttonStyle(.borderedProminent)
+
+                        }
+                        
                     }
-                    .buttonStyle(.bordered)
+                    
                 }
                     
             }
