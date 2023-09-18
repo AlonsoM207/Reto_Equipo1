@@ -27,12 +27,8 @@ struct ContentView: View {
                             .custom("Oxygen-Regular", size:45))
                         .offset(y:-60)
                     NavigationLink(destination: GameSelect()) {
-                        Button(action: {}) {
-                            .buttonStyle(.borderedProminent)
-
-                        }
-                        
-                    }
+                        Text("Iniciar")
+                    } .buttonStyle(.borderedProminent)
                     
                 }
                     
