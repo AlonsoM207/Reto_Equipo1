@@ -15,26 +15,40 @@ struct LetrasSenias: View {
                 Color("Primary")
                     .edgesIgnoringSafeArea(.all)
                 VStack{
-                    Text("Imita esta seña")
-                        .multilineTextAlignment(.center)
-                        .foregroundColor(Color("Text"))
-                        .font(Font
-                            .custom("Oxygen-Regular", size: 35))
-                        .offset(y: -180)
+                    
                     ZStack{
                         Rectangle()
                             .foregroundColor(.white)
                             .cornerRadius(10)
+                            .frame(width: 250, height: 80)
+                            .offset(y: -30)
+                            .padding()
+                        Text("Imita esta seña")
+                            .multilineTextAlignment(.center)
+                            .foregroundColor(Color("Text"))
+                            .font(Font.custom("Oxygen-Regular", size: 35))
+                        .offset(y: -30)
+                        
+                    }
+                    ZStack{
+                        Rectangle()
+                            .foregroundColor(.green)
+                            .cornerRadius(10)
                             .frame(width: 200, height: 200)
-                            .offset(y: -150)
+                            .offset(y: -80)
                             .padding()
                         Text("A")
                             .multilineTextAlignment(.center)
                             .foregroundColor(Color("Text"))
                             .font(Font
                                 .custom("Oxygen-Regular", size: 150))
-                            .offset(y: -150)
+                            .offset(y: -80)
                     }
+                    
+                    Image("A")
+                        .resizable()
+                        .scaledToFit()
+                        .offset(y: -100)
                 }
             }
         }
