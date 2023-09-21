@@ -21,7 +21,7 @@ struct MateSenias: View {
                         .frame(width: 200, height: 80)
                         .offset(y: -100)
                         .padding()
-                    Text("2 + ? = 6")
+                    Text("2 + ? = 5")
                         .multilineTextAlignment(.center)
                         .foregroundColor(Color("Text"))
                         .font(Font
@@ -32,7 +32,7 @@ struct MateSenias: View {
                 HStack{
                     ZStack{
                         Rectangle()
-                            .foregroundColor(.white)
+                            .foregroundColor(.green)
                             .cornerRadius(10)
                             .frame(width: 50, height: 50)
                             .offset(y: -100)
