@@ -52,35 +52,39 @@ struct GameSelect: View {
                     }
                 }
                 .padding()
-                ZStack{
-                    Rectangle()
-                        .foregroundColor(Color("GameStack2"))
-                        .cornerRadius(20)
-                        .frame(width: 300, height: 125)
-                    VStack{
-                        Image("Spelling")
-                            .resizable()
-                            .frame(width: 40, height: 40)
-                        Text("Deletrear palabras con señas")
-                            .foregroundColor(Color("TextAlt"))
-                            .font(Font
-                                .custom("Oxygen-Regular", size:18))
+                NavigationLink(destination: DeletrearConSenias()){
+                    ZStack{
+                        Rectangle()
+                            .foregroundColor(Color("GameStack2"))
+                            .cornerRadius(20)
+                            .frame(width: 300, height: 125)
+                        VStack{
+                            Image("Spelling")
+                                .resizable()
+                                .frame(width: 40, height: 40)
+                            Text("Deletrear palabras con señas")
+                                .foregroundColor(Color("TextAlt"))
+                                .font(Font
+                                    .custom("Oxygen-Regular", size:18))
+                        }
                     }
                 }
                 .padding()
-                ZStack{
-                    Rectangle()
-                        .foregroundColor(Color("GameStack3"))
-                        .cornerRadius(20)
-                        .frame(width: 300, height: 125)
-                    VStack{
-                        Image("Math")
-                            .resizable()
-                            .frame(width: 40, height: 40)
-                        Text("Matemáticas con señas")
-                            .foregroundColor(.white)
-                            .font(Font
-                                .custom("Oxygen-Regular", size:18))
+                NavigationLink(destination: LetrasSenias()){
+                    ZStack{
+                        Rectangle()
+                            .foregroundColor(Color("GameStack3"))
+                            .cornerRadius(20)
+                            .frame(width: 300, height: 125)
+                        VStack{
+                            Image("Math")
+                                .resizable()
+                                .frame(width: 40, height: 40)
+                            Text("Matemáticas con señas")
+                                .foregroundColor(.white)
+                                .font(Font
+                                    .custom("Oxygen-Regular", size:18))
+                        }
                     }
                 }
                 .padding()
