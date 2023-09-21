@@ -17,7 +17,7 @@ struct ContentView: View {
                     .edgesIgnoringSafeArea(.all)
                 VStack {
                     //Logo de la aplicación
-                    Image("Placeholder")
+                    Image("DESL")
                         .resizable()
                         .scaledToFit()
                         .offset(y:-50)
