@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FB6B9D4B2ABCC3D80065BB70 /* Letras-Señas.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6B9D4A2ABCC3D80065BB70 /* Letras-Señas.swift */; };
+		FB6B9D4B2ABCC3D80065BB70 /* LetrasSenias.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6B9D4A2ABCC3D80065BB70 /* LetrasSenias.swift */; };
+		FB6B9D4D2ABCC7BA0065BB70 /* DeletrearConSeñas.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6B9D4C2ABCC7BA0065BB70 /* DeletrearConSeñas.swift */; };
 		FB8FA97B2AAFAC9D002E93E8 /* Proyecto_Equipo1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8FA97A2AAFAC9D002E93E8 /* Proyecto_Equipo1App.swift */; };
 		FB8FA97D2AAFAC9D002E93E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8FA97C2AAFAC9D002E93E8 /* ContentView.swift */; };
 		FB8FA97F2AAFAC9D002E93E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB8FA97E2AAFAC9D002E93E8 /* Assets.xcassets */; };
@@ -17,7 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FB6B9D4A2ABCC3D80065BB70 /* Letras-Señas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Letras-Señas.swift"; sourceTree = "<group>"; };
+		FB6B9D4A2ABCC3D80065BB70 /* LetrasSenias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetrasSenias.swift; sourceTree = "<group>"; };
+		FB6B9D4C2ABCC7BA0065BB70 /* DeletrearConSeñas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DeletrearConSeñas.swift"; sourceTree = "<group>"; };
 		FB8FA9772AAFAC9D002E93E8 /* Proyecto_Equipo1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Proyecto_Equipo1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB8FA97A2AAFAC9D002E93E8 /* Proyecto_Equipo1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proyecto_Equipo1App.swift; sourceTree = "<group>"; };
 		FB8FA97C2AAFAC9D002E93E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,7 +62,8 @@
 				FBC50B9F2AAFCA42000E697E /* Fonts */,
 				FB8FA97A2AAFAC9D002E93E8 /* Proyecto_Equipo1App.swift */,
 				FB8FA97C2AAFAC9D002E93E8 /* ContentView.swift */,
-				FB6B9D4A2ABCC3D80065BB70 /* Letras-Señas.swift */,
+				FB6B9D4C2ABCC7BA0065BB70 /* DeletrearConSeñas.swift */,
+				FB6B9D4A2ABCC3D80065BB70 /* LetrasSenias.swift */,
 				FBC50B9A2AAFC99E000E697E /* GameSelect.swift */,
 				FB8FA97E2AAFAC9D002E93E8 /* Assets.xcassets */,
 				FB8FA9802AAFAC9D002E93E8 /* Preview Content */,
@@ -158,7 +161,8 @@
 				FB8FA97D2AAFAC9D002E93E8 /* ContentView.swift in Sources */,
 				FB8FA97B2AAFAC9D002E93E8 /* Proyecto_Equipo1App.swift in Sources */,
 				FBC50B9B2AAFC99E000E697E /* GameSelect.swift in Sources */,
-				FB6B9D4B2ABCC3D80065BB70 /* Letras-Señas.swift in Sources */,
+				FB6B9D4B2ABCC3D80065BB70 /* LetrasSenias.swift in Sources */,
+				FB6B9D4D2ABCC7BA0065BB70 /* DeletrearConSeñas.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

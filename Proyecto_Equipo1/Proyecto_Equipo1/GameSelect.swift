@@ -32,19 +32,23 @@ struct GameSelect: View {
                 
                 // Imagen para cada uno de los juegos que debe de llevar al juego correspondiente
                 //  Pero aún no se ha agregado
-                ZStack{
-                    Rectangle()
-                        .foregroundColor(Color("GameStack1"))
-                        .cornerRadius(20)
-                        .frame(width: 300, height: 125)
+                
+                NavigationLink(destination: LetrasSenias()){
+                    ZStack{
+                        Rectangle()
+                            .foregroundColor(Color("GameStack1"))
+                            .cornerRadius(20)
+                            .frame(width: 300, height: 125)
+                    
                     VStack{
-                        Image("Math")
+                        Image("Sign")
                             .resizable()
                             .frame(width: 40, height: 40)
                         Text("Aprender señas")
                             .foregroundColor(.white)
                             .font(Font
                                 .custom("Oxygen-Regular", size:18))
+                    }
                     }
                 }
                 .padding()
@@ -70,7 +74,7 @@ struct GameSelect: View {
                         .cornerRadius(20)
                         .frame(width: 300, height: 125)
                     VStack{
-                        Image("Sign")
+                        Image("Math")
                             .resizable()
                             .frame(width: 40, height: 40)
                         Text("Matemáticas con señas")
