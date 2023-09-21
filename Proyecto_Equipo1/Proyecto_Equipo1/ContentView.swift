@@ -19,6 +19,7 @@ struct ContentView: View {
                     Image("Placeholder")
                         .resizable()
                         .scaledToFit()
+                        .frame(width: 200, height: 200)
                         .offset(y:-50)
                     // Título de la aplicación
                     Text("Aprendiendo con Señas")
