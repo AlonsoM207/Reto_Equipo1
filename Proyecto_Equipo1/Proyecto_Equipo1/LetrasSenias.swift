@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Letras_Sen_as: View {
+struct LetrasSenias: View {
     var body: some View {
         NavigationView{
             ZStack{
@@ -43,6 +43,6 @@ struct Letras_Sen_as: View {
 
 struct Letras_Sen_as_Previews: PreviewProvider {
     static var previews: some View {
-        Letras_Sen_as()
+        LetrasSenias()
     }
 }
