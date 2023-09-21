@@ -39,16 +39,16 @@ struct GameSelect: View {
                             .foregroundColor(Color("GameStack1"))
                             .cornerRadius(20)
                             .frame(width: 300, height: 125)
-                    
-                    VStack{
-                        Image("Sign")
-                            .resizable()
-                            .frame(width: 40, height: 40)
-                        Text("Aprender señas")
-                            .foregroundColor(.white)
-                            .font(Font
-                                .custom("Oxygen-Regular", size:18))
-                    }
+                        
+                        VStack{
+                            Image("Sign")
+                                .resizable()
+                                .frame(width: 40, height: 40)
+                            Text("Aprender señas")
+                                .foregroundColor(.white)
+                                .font(Font
+                                    .custom("Oxygen-Regular", size:18))
+                        }
                     }
                 }
                 .padding()
@@ -70,7 +70,7 @@ struct GameSelect: View {
                     }
                 }
                 .padding()
-                NavigationLink(destination: LetrasSenias()){
+                NavigationLink(destination: MateSenias()){
                     ZStack{
                         Rectangle()
                             .foregroundColor(Color("GameStack3"))
@@ -84,17 +84,18 @@ struct GameSelect: View {
                                 .foregroundColor(.white)
                                 .font(Font
                                     .custom("Oxygen-Regular", size:18))
+                            }
                         }
+                        .padding()
                     }
                 }
-                .padding()
+            }
+        }
+        
+        struct GameSelect_Previews: PreviewProvider {
+            static var previews: some View {
+                GameSelect()
             }
         }
     }
-    
-    struct GameSelect_Previews: PreviewProvider {
-        static var previews: some View {
-            GameSelect()
-        }
-    }
-}
+

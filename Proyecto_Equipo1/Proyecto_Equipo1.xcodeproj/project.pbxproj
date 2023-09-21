@@ -13,6 +13,7 @@
 		FB8FA97D2AAFAC9D002E93E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8FA97C2AAFAC9D002E93E8 /* ContentView.swift */; };
 		FB8FA97F2AAFAC9D002E93E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB8FA97E2AAFAC9D002E93E8 /* Assets.xcassets */; };
 		FB8FA9822AAFAC9D002E93E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB8FA9812AAFAC9D002E93E8 /* Preview Assets.xcassets */; };
+		FBABCA1C2ABCD3AF005CE9AC /* MateSenias.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBABCA1B2ABCD3AF005CE9AC /* MateSenias.swift */; };
 		FBC50B9B2AAFC99E000E697E /* GameSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC50B9A2AAFC99E000E697E /* GameSelect.swift */; };
 		FBC50BA12AAFCA77000E697E /* Oxygen-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBC50BA02AAFCA77000E697E /* Oxygen-Regular.ttf */; };
 /* End PBXBuildFile section */
@@ -25,6 +26,7 @@
 		FB8FA97C2AAFAC9D002E93E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FB8FA97E2AAFAC9D002E93E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB8FA9812AAFAC9D002E93E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FBABCA1B2ABCD3AF005CE9AC /* MateSenias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MateSenias.swift; sourceTree = "<group>"; };
 		FBC50B9A2AAFC99E000E697E /* GameSelect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSelect.swift; sourceTree = "<group>"; };
 		FBC50BA02AAFCA77000E697E /* Oxygen-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oxygen-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,6 +67,7 @@
 				FB6B9D4C2ABCC7BA0065BB70 /* DeletrearConSenias.swift */,
 				FB6B9D4A2ABCC3D80065BB70 /* LetrasSenias.swift */,
 				FBC50B9A2AAFC99E000E697E /* GameSelect.swift */,
+				FBABCA1B2ABCD3AF005CE9AC /* MateSenias.swift */,
 				FB8FA97E2AAFAC9D002E93E8 /* Assets.xcassets */,
 				FB8FA9802AAFAC9D002E93E8 /* Preview Content */,
 			);
@@ -161,6 +164,7 @@
 				FB8FA97D2AAFAC9D002E93E8 /* ContentView.swift in Sources */,
 				FB8FA97B2AAFAC9D002E93E8 /* Proyecto_Equipo1App.swift in Sources */,
 				FBC50B9B2AAFC99E000E697E /* GameSelect.swift in Sources */,
+				FBABCA1C2ABCD3AF005CE9AC /* MateSenias.swift in Sources */,
 				FB6B9D4B2ABCC3D80065BB70 /* LetrasSenias.swift in Sources */,
 				FB6B9D4D2ABCC7BA0065BB70 /* DeletrearConSenias.swift in Sources */,
 			);
