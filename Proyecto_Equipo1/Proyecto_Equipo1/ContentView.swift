@@ -33,7 +33,8 @@ struct ContentView: View {
                         Text("Iniciar")
                             .font(.system(size: 35))
                     } .buttonStyle(.borderedProminent)
-                    
+                        .tint(.pink)
+                                            
                 }
                     
             }
