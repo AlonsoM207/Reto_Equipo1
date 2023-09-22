@@ -20,11 +20,10 @@ struct DeletrearConSenias: View {
                         .foregroundColor(Color("Text"))
                         .font(Font
                         .custom("Oxygen-Regular", size: 35))
-                        //.offset(y: -140)
                     Image("Placeholder2")
                         .resizable()
                         .scaledToFit()
-                        .frame(width: 250, height: 250)
+                        .frame(width: 200, height: 200)
                         
                     ZStack{
                         Rectangle()
