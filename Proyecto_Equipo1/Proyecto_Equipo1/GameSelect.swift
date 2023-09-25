@@ -44,10 +44,10 @@ struct GameSelect: View {
                             Image("Sign")
                                 .resizable()
                                 .frame(width: 40, height: 40)
-                            Text("Aprender señas")
+                            Text("Aprender")
                                 .foregroundColor(.white)
                                 .font(Font
-                                    .custom("Oxygen-Regular", size:18))
+                                    .custom("Oxygen-Regular", size:30))
                         }
                     }
                 }
@@ -62,10 +62,10 @@ struct GameSelect: View {
                             Image("Spelling")
                                 .resizable()
                                 .frame(width: 40, height: 40)
-                            Text("Deletrear palabras con señas")
+                            Text("Deletrear")
                                 .foregroundColor(Color("TextAlt"))
                                 .font(Font
-                                    .custom("Oxygen-Regular", size:18))
+                                    .custom("Oxygen-Regular", size:30))
                         }
                     }
                 }
@@ -80,10 +80,10 @@ struct GameSelect: View {
                             Image("Math")
                                 .resizable()
                                 .frame(width: 40, height: 40)
-                            Text("Matemáticas con señas")
+                            Text("Matemáticas")
                                 .foregroundColor(.white)
                                 .font(Font
-                                    .custom("Oxygen-Regular", size:18))
+                                    .custom("Oxygen-Regular", size:30))
                             }
                         }
                         .padding()
