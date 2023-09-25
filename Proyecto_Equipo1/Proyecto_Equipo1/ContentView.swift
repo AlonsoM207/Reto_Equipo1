@@ -18,6 +18,7 @@ struct ContentView: View {
                     //Logo de la aplicación
                     Image("Placeholder")
                         .resizable()
+                        .cornerRadius(100)
                         .scaledToFit()
                         .frame(width: 200, height: 200)
                         .offset(y:-50)
