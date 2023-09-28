@@ -20,12 +20,14 @@ struct GameSelect: View {
                         .cornerRadius(10)
                         .frame(width: 350, height: 50)
                         .padding()
+                        .offset(y: -40)
                     // Título de la página
                     Text("Selección de Juegos")
                         .multilineTextAlignment(.center)
                         .foregroundColor(Color("Text"))
                         .font(Font
                             .custom("Oxygen-Regular", size: 35))
+                        .offset(y: -40)
                 }
                 
                 // Imagen para cada uno de los juegos que debe de llevar al juego correspondiente
@@ -84,26 +86,8 @@ struct GameSelect: View {
                                     .custom("Oxygen-Regular", size:30))
                             }
                         }
+                        .padding()
                     }
-                .padding()
-                NavigationLink(destination: MateSenias()){
-                    ZStack{
-                        Rectangle()
-                            .foregroundColor(Color("GameStack4"))
-                            .cornerRadius(20)
-                            .frame(width: 300, height: 125)
-                        VStack{
-                            Image("Options")
-                                .resizable()
-                                .frame(width: 40, height: 40)
-                            Text("Opciones")
-                                .foregroundColor(.white)
-                                .font(Font
-                                    .custom("Oxygen-Regular", size:30))
-                            }
-                        }
-                    }
-                .padding()
                 }
             }
         }

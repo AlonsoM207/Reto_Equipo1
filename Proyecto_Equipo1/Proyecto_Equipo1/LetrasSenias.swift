@@ -20,7 +20,7 @@ struct LetrasSenias: View {
                         Rectangle()
                             .foregroundColor(.white)
                             .cornerRadius(10)
-                            .frame(width: 250, height: 50)
+                            .frame(width: 250, height: 80)
                             .offset(y: -30)
                             .padding()
                         Text("Imita esta seña")
