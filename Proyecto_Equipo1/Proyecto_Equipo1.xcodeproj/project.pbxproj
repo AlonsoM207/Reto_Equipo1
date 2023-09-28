@@ -64,7 +64,14 @@
 				FBC50B9F2AAFCA42000E697E /* Fonts */,
 				FB8FA97A2AAFAC9D002E93E8 /* Proyecto_Equipo1App.swift */,
 				FB8FA97C2AAFAC9D002E93E8 /* ContentView.swift */,
+<<<<<<< HEAD
 				FBC50B9A2AAFC99E000E697E /* GameSelect.swift */,
+=======
+				FB6B9D4C2ABCC7BA0065BB70 /* DeletrearConSenias.swift */,
+				FB6B9D4A2ABCC3D80065BB70 /* LetrasSenias.swift */,
+				FBC50B9A2AAFC99E000E697E /* GameSelect.swift */,
+				FBABCA1B2ABCD3AF005CE9AC /* MateSenias.swift */,
+>>>>>>> parent of d279ab2 (Merge remote-tracking branch 'origin/Emiliano')
 				FB8FA97E2AAFAC9D002E93E8 /* Assets.xcassets */,
 				FB8FA9802AAFAC9D002E93E8 /* Preview Content */,
 			);
@@ -161,6 +168,12 @@
 				FB8FA97D2AAFAC9D002E93E8 /* ContentView.swift in Sources */,
 				FB8FA97B2AAFAC9D002E93E8 /* Proyecto_Equipo1App.swift in Sources */,
 				FBC50B9B2AAFC99E000E697E /* GameSelect.swift in Sources */,
+<<<<<<< HEAD
+=======
+				FBABCA1C2ABCD3AF005CE9AC /* MateSenias.swift in Sources */,
+				FB6B9D4B2ABCC3D80065BB70 /* LetrasSenias.swift in Sources */,
+				FB6B9D4D2ABCC7BA0065BB70 /* DeletrearConSenias.swift in Sources */,
+>>>>>>> parent of d279ab2 (Merge remote-tracking branch 'origin/Emiliano')
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
