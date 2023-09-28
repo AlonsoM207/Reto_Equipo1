@@ -59,6 +59,6 @@ struct QuestionView: View {
 
 struct QuestionView_Previews: PreviewProvider {
     static var previews: some View {
-        QuestionView(question: .constant(Question))
+        QuestionView(question: Question(title: <#T##String#>, answer: <#T##String#>, options: <#T##[String]#>))
     }
 }
