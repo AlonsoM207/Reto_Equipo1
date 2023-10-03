@@ -11,6 +11,7 @@
 		FB8FA97D2AAFAC9D002E93E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8FA97C2AAFAC9D002E93E8 /* ContentView.swift */; };
 		FB8FA97F2AAFAC9D002E93E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB8FA97E2AAFAC9D002E93E8 /* Assets.xcassets */; };
 		FB8FA9822AAFAC9D002E93E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB8FA9812AAFAC9D002E93E8 /* Preview Assets.xcassets */; };
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< Updated upstream
 		FBADF6222AB8B6B900144BF8 /* Game1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBADF6212AB8B6B900144BF8 /* Game1View.swift */; };
@@ -20,6 +21,14 @@
 =======
 		FBADF6222AB8B6B900144BF8 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBADF6212AB8B6B900144BF8 /* GameView.swift */; };
 >>>>>>> parent of 90940eb (Juego 1)
+=======
+		FB9673322ACB2AA000E4A4A3 /* TabView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9673312ACB2AA000E4A4A3 /* TabView2.swift */; };
+		FB9673342ACB2CB500E4A4A3 /* DictionaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9673332ACB2CB500E4A4A3 /* DictionaryView.swift */; };
+		FB9673362ACB443400E4A4A3 /* DictionaryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9673352ACB443400E4A4A3 /* DictionaryViewModel.swift */; };
+		FBA9305B2ACB468300B8EE0D /* LetraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA9305A2ACB468300B8EE0D /* LetraView.swift */; };
+		FBA9305D2ACB46E000B8EE0D /* Letra.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA9305C2ACB46E000B8EE0D /* Letra.swift */; };
+		FBABCA1C2ABCD3AF005CE9AC /* MateSenias.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBABCA1B2ABCD3AF005CE9AC /* MateSenias.swift */; };
+>>>>>>> Stashed changes
 		FBC50B9B2AAFC99E000E697E /* GameSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC50B9A2AAFC99E000E697E /* GameSelect.swift */; };
 		FBC50BA12AAFCA77000E697E /* Oxygen-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBC50BA02AAFCA77000E697E /* Oxygen-Regular.ttf */; };
 /* End PBXBuildFile section */
@@ -30,6 +39,7 @@
 		FB8FA97C2AAFAC9D002E93E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FB8FA97E2AAFAC9D002E93E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB8FA9812AAFAC9D002E93E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< Updated upstream
 		FBADF6212AB8B6B900144BF8 /* Game1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game1View.swift; sourceTree = "<group>"; };
@@ -39,6 +49,14 @@
 =======
 		FBADF6212AB8B6B900144BF8 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 >>>>>>> parent of 90940eb (Juego 1)
+=======
+		FB9673312ACB2AA000E4A4A3 /* TabView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView2.swift; sourceTree = "<group>"; };
+		FB9673332ACB2CB500E4A4A3 /* DictionaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryView.swift; sourceTree = "<group>"; };
+		FB9673352ACB443400E4A4A3 /* DictionaryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryViewModel.swift; sourceTree = "<group>"; };
+		FBA9305A2ACB468300B8EE0D /* LetraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetraView.swift; sourceTree = "<group>"; };
+		FBA9305C2ACB46E000B8EE0D /* Letra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Letra.swift; sourceTree = "<group>"; };
+		FBABCA1B2ABCD3AF005CE9AC /* MateSenias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MateSenias.swift; sourceTree = "<group>"; };
+>>>>>>> Stashed changes
 		FBC50B9A2AAFC99E000E697E /* GameSelect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSelect.swift; sourceTree = "<group>"; };
 		FBC50BA02AAFCA77000E697E /* Oxygen-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oxygen-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -75,6 +93,16 @@
 			children = (
 				FBC50B9F2AAFCA42000E697E /* Fonts */,
 				FB8FA97A2AAFAC9D002E93E8 /* Proyecto_Equipo1App.swift */,
+<<<<<<< Updated upstream
+=======
+				FB6F77732AC6164800695340 /* QuestionGame.swift */,
+				FB9673312ACB2AA000E4A4A3 /* TabView2.swift */,
+				FB9673332ACB2CB500E4A4A3 /* DictionaryView.swift */,
+				FB9673352ACB443400E4A4A3 /* DictionaryViewModel.swift */,
+				FBA9305A2ACB468300B8EE0D /* LetraView.swift */,
+				FBA9305C2ACB46E000B8EE0D /* Letra.swift */,
+				FB6F77752AC6165B00695340 /* QuestionView.swift */,
+>>>>>>> Stashed changes
 				FB8FA97C2AAFAC9D002E93E8 /* ContentView.swift */,
 				FBADF6212AB8B6B900144BF8 /* GameView.swift */,
 				FBC50B9A2AAFC99E000E697E /* GameSelect.swift */,
@@ -177,6 +205,18 @@
 				FB8FA97B2AAFAC9D002E93E8 /* Proyecto_Equipo1App.swift in Sources */,
 				FBADF6222AB8B6B900144BF8 /* GameView.swift in Sources */,
 				FBC50B9B2AAFC99E000E697E /* GameSelect.swift in Sources */,
+<<<<<<< Updated upstream
+=======
+				FB9673342ACB2CB500E4A4A3 /* DictionaryView.swift in Sources */,
+				FBA9305D2ACB46E000B8EE0D /* Letra.swift in Sources */,
+				FBA9305B2ACB468300B8EE0D /* LetraView.swift in Sources */,
+				FBABCA1C2ABCD3AF005CE9AC /* MateSenias.swift in Sources */,
+				FB6F77742AC6164800695340 /* QuestionGame.swift in Sources */,
+				FB9673362ACB443400E4A4A3 /* DictionaryViewModel.swift in Sources */,
+				FB6B9D4B2ABCC3D80065BB70 /* LetrasSenias.swift in Sources */,
+				FB6B9D4D2ABCC7BA0065BB70 /* DeletrearConSenias.swift in Sources */,
+				FB9673322ACB2AA000E4A4A3 /* TabView2.swift in Sources */,
+>>>>>>> Stashed changes
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
