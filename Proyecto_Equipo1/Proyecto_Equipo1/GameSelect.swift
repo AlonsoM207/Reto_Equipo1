@@ -80,6 +80,9 @@ struct GameSelect: View {
                                 .resizable()
                                 .frame(width: 40, height: 40)
                             Text("Practicar")
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                                 .foregroundColor(.white)
                                 .cornerRadius(10)
@@ -219,6 +222,9 @@ struct GameSelect: View {
 =======
                 .padding()
                 .offset(y: -40)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                 }
 >>>>>>> Stashed changes
