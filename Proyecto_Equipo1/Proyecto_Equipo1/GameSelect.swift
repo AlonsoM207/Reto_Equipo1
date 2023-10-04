@@ -27,6 +27,7 @@ struct GameSelect: View {
                         .font(Font
                             .custom("Oxygen-Regular", size: 35))
                 }
+                .offset(y: 30)
                 
                 // Imagen para cada uno de los juegos que debe de llevar al juego correspondiente
                 //  Pero aún no se ha agregado
@@ -50,6 +51,7 @@ struct GameSelect: View {
                     }
                 }
                 .padding()
+                .offset(y: 20)
                 NavigationLink(destination: DeletrearConSenias()){
                     ZStack{
                         Rectangle()
@@ -68,6 +70,7 @@ struct GameSelect: View {
                     }
                 }
                 .padding()
+                
                 NavigationLink(destination: MateSenias()){
                     ZStack{
                         Rectangle()
@@ -82,10 +85,11 @@ struct GameSelect: View {
                                 .foregroundColor(.white)
                                 .font(Font
                                     .custom("Oxygen-Regular", size:30))
-                            }
                         }
                     }
+                }
                 .padding()
+                .offset(y: -20)
                 NavigationLink(destination: MateSenias()){
                     ZStack{
                         Rectangle()
@@ -100,10 +104,11 @@ struct GameSelect: View {
                                 .foregroundColor(.white)
                                 .font(Font
                                     .custom("Oxygen-Regular", size:30))
-                            }
                         }
                     }
+                }
                 .padding()
+                .offset(y: -40)
                 }
             }
         }

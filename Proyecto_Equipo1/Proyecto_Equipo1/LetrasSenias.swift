@@ -45,7 +45,7 @@ struct LetrasSenias: View {
                             .offset(y: -80)
                     }
                     
-                    Image("A")
+                    Image("A2")
                         .resizable()
                         .scaledToFit()
                         .offset(y: -100)

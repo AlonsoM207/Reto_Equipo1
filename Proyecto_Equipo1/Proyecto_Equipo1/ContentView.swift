@@ -30,7 +30,7 @@ struct ContentView: View {
                             .custom("Oxygen-Regular", size:45))
                         .offset(y:-60)
                     // Botón que lleva a la página principal de la app
-                    NavigationLink(destination: GameSelect()) {
+                    NavigationLink(destination: TabView2()) {
                         Text("Iniciar")
                             .font(.system(size: 35))
                     } .buttonStyle(.borderedProminent)
