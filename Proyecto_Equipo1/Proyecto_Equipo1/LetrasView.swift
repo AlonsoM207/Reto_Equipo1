@@ -12,6 +12,7 @@ struct LetrasView: View {
     @StateObject private var model = LetrasViewModel()
     
     var body: some View {
+        NavigationStack{
             ScrollView {
                 VStack(spacing: 16) {
                     if model.isLoading {
@@ -39,11 +40,14 @@ struct LetrasView: View {
                 .padding()
             }
             .navigationTitle("Señas")
+            .frame(maxWidth: .infinity)
+            .background(Color("Primary"))
             .navigationDestination(for: Letra.self) {letra in
                 LetraView(letra: letra, model: LetrasViewModel())
+            
             }
             .onAppear(perform: downloadLetras)
-        
+        }
     }
     
     func downloadLetras() {
@@ -59,8 +63,8 @@ struct LetrasView: View {
 
 struct LetrasView_Previews: PreviewProvider {
     static var previews: some View {
-        NavigationStack{
+       // NavigationStack{
             LetrasView()
-        }
+     //   }
     }
 }
