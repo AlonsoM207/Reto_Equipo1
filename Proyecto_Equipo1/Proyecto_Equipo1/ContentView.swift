@@ -18,6 +18,7 @@ struct ContentView: View {
                     //Logo de la aplicación
                     Image("Placeholder")
                         .resizable()
+                        .cornerRadius(100)
                         .scaledToFit()
                         .frame(width: 200, height: 200)
                         .offset(y:-50)
@@ -29,7 +30,7 @@ struct ContentView: View {
                             .custom("Oxygen-Regular", size:45))
                         .offset(y:-60)
                     // Botón que lleva a la página principal de la app
-                    NavigationLink(destination: GameSelect()) {
+                    NavigationLink(destination: TabView2()) {
                         Text("Iniciar")
                             .font(.system(size: 35))
                     } .buttonStyle(.borderedProminent)
