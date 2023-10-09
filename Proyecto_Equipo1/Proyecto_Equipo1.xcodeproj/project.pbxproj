@@ -15,6 +15,8 @@
 		FB75F1092AD465A7009F442A /* LiveCameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB75F1082AD465A7009F442A /* LiveCameraController.swift */; };
 		FB75F10D2AD46E76009F442A /* Slequipo1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FB75F10B2AD46E76009F442A /* Slequipo1.mlmodel */; };
 		FB75F10E2AD46E76009F442A /* Snequipo1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FB75F10C2AD46E76009F442A /* Snequipo1.mlmodel */; };
+		FB75F1102AD46F9E009F442A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB75F10F2AD46F9E009F442A /* Constants.swift */; };
+		FB75F1122AD46FCB009F442A /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB75F1112AD46FCB009F442A /* Helpers.swift */; };
 		FB8FA97B2AAFAC9D002E93E8 /* Proyecto_Equipo1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8FA97A2AAFAC9D002E93E8 /* Proyecto_Equipo1App.swift */; };
 		FB8FA97D2AAFAC9D002E93E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8FA97C2AAFAC9D002E93E8 /* ContentView.swift */; };
 		FB8FA97F2AAFAC9D002E93E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB8FA97E2AAFAC9D002E93E8 /* Assets.xcassets */; };
@@ -39,6 +41,8 @@
 		FB75F1082AD465A7009F442A /* LiveCameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveCameraController.swift; sourceTree = "<group>"; };
 		FB75F10B2AD46E76009F442A /* Slequipo1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Slequipo1.mlmodel; sourceTree = "<group>"; };
 		FB75F10C2AD46E76009F442A /* Snequipo1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Snequipo1.mlmodel; sourceTree = "<group>"; };
+		FB75F10F2AD46F9E009F442A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FB75F1112AD46FCB009F442A /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		FB8FA9772AAFAC9D002E93E8 /* Proyecto_Equipo1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Proyecto_Equipo1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB8FA97A2AAFAC9D002E93E8 /* Proyecto_Equipo1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proyecto_Equipo1App.swift; sourceTree = "<group>"; };
 		FB8FA97C2AAFAC9D002E93E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -161,6 +165,8 @@
 		FBECD0E42AD452F4008EA64C /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				FB75F10F2AD46F9E009F442A /* Constants.swift */,
+				FB75F1112AD46FCB009F442A /* Helpers.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -243,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB6F77762AC6165C00695340 /* QuestionView.swift in Sources */,
+				FB75F1122AD46FCB009F442A /* Helpers.swift in Sources */,
 				FB75F1072AD46578009F442A /* LiveCameraRepresentable.swift in Sources */,
 				FB8FA97D2AAFAC9D002E93E8 /* ContentView.swift in Sources */,
 				FB75F10E2AD46E76009F442A /* Snequipo1.mlmodel in Sources */,
@@ -259,6 +266,7 @@
 				FB6B9D4B2ABCC3D80065BB70 /* LetrasSenias.swift in Sources */,
 				FB6B9D4D2ABCC7BA0065BB70 /* DeletrearConSenias.swift in Sources */,
 				FB9C661F2ACCDE5E004FFE8C /* TabView2.swift in Sources */,
+				FB75F1102AD46F9E009F442A /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
