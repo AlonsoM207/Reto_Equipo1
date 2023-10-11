@@ -9,7 +9,6 @@ import SwiftUI
 
 struct DeletrearConSenias: View {
     var body: some View {
-        NavigationView{
             ZStack{
                 // Color de fondo
                 Color("Primary")
@@ -45,7 +44,6 @@ struct DeletrearConSenias: View {
                 }
             }
         }
-    }
 }
 
 struct DeletrearConSenias_Previews: PreviewProvider {

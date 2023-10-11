@@ -423,7 +423,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Proyecto_Equipo1/Preview Content\"";
-				DEVELOPMENT_TEAM = 9MQSX62K58;
+				DEVELOPMENT_TEAM = M34X77LFAD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Aprendiendo con señas requiere permiso para usar la cámara";
@@ -453,7 +453,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Proyecto_Equipo1/Preview Content\"";
-				DEVELOPMENT_TEAM = 9MQSX62K58;
+				DEVELOPMENT_TEAM = M34X77LFAD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Aprendiendo con señas requiere permiso para usar la cámara";

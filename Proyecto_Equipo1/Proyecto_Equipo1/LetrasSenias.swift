@@ -9,7 +9,7 @@ import SwiftUI
 
 struct LetrasSenias: View {
     var body: some View {
-        NavigationView{
+
             ZStack{
                 // Color de fondo
                 Color("Primary")
@@ -51,7 +51,7 @@ struct LetrasSenias: View {
                         .offset(y: -100)
                 }
             }
-        }
+        
     }
 }
 
