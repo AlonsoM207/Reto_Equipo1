@@ -20,13 +20,13 @@ struct LetrasSenias: View {
                         Rectangle()
                             .foregroundColor(.white)
                             .cornerRadius(10)
-                            .frame(width: 250, height: 50)
+                            .frame(width: 300, height: 50)
                             .offset(y: -30)
                             .padding()
-                        Text("Imita esta seña")
+                        Text("Haz la seña correcta")
                             .multilineTextAlignment(.center)
                             .foregroundColor(Color("Text"))
-                            .font(Font.custom("Oxygen-Regular", size: 35))
+                            .font(Font.custom("Oxygen-Regular", size: 30))
                         .offset(y: -30)
                         
                     }

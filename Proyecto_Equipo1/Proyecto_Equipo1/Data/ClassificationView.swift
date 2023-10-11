@@ -7,14 +7,36 @@
 
 import SwiftUI
 
-struct ClassificationView: View {
+struct ClassificationView<Content: View>: View {
+    
+    @EnvironmentObject var predictionStatus: PredictionStatus
+    @ObservedObject var classifierViewModel: ClassifierViewModel
+    
+    let content: () -> Content
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+//        let predictionLabel = predictionStatus.topLabel
+        
+        ZStack {
+            content()
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background {
+            LiveCameraRepresentable() {
+                predictionStatus.setLivePrediction(with: $0, label: $1, confidence: $2)
+            }
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .ignoresSafeArea()
+            .onAppear(perform: classifierViewModel.loadJSON)
+        }
     }
 }
 
 struct ClassificationView_Previews: PreviewProvider {
     static var previews: some View {
-        ClassificationView()
+        ClassificationView(classifierViewModel: ClassifierViewModel()) {
+            Text("Hello world!")
+        }
+            .environmentObject(PredictionStatus())
     }
 }
