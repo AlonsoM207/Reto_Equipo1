@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB62B75E2AD713E800594247 /* PredictionStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB62B75D2AD713E800594247 /* PredictionStatus.swift */; };
+		FB62B7622AD7155500594247 /* mydata.geojson in Resources */ = {isa = PBXBuildFile; fileRef = FB62B7612AD7155500594247 /* mydata.geojson */; };
+		FB62B7642AD7184500594247 /* Classification.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB62B7632AD7184500594247 /* Classification.swift */; };
+		FB62B7662AD71AF700594247 /* ClassificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB62B7652AD71AF700594247 /* ClassificationView.swift */; };
+		FB62B7682AD71B0E00594247 /* ClassifierViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB62B7672AD71B0E00594247 /* ClassifierViewModel.swift */; };
 		FB6B9D4B2ABCC3D80065BB70 /* LetrasSenias.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6B9D4A2ABCC3D80065BB70 /* LetrasSenias.swift */; };
 		FB6B9D4D2ABCC7BA0065BB70 /* DeletrearConSenias.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6B9D4C2ABCC7BA0065BB70 /* DeletrearConSenias.swift */; };
 		FB6F77742AC6164800695340 /* QuestionGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6F77732AC6164800695340 /* QuestionGame.swift */; };
@@ -33,6 +38,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB62B75D2AD713E800594247 /* PredictionStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictionStatus.swift; sourceTree = "<group>"; };
+		FB62B7612AD7155500594247 /* mydata.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = mydata.geojson; sourceTree = "<group>"; };
+		FB62B7632AD7184500594247 /* Classification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classification.swift; sourceTree = "<group>"; };
+		FB62B7652AD71AF700594247 /* ClassificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ClassificationView.swift; path = Proyecto_Equipo1/Data/ClassificationView.swift; sourceTree = SOURCE_ROOT; };
+		FB62B7672AD71B0E00594247 /* ClassifierViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ClassifierViewModel.swift; path = Proyecto_Equipo1/Data/ClassifierViewModel.swift; sourceTree = SOURCE_ROOT; };
 		FB6B9D4A2ABCC3D80065BB70 /* LetrasSenias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetrasSenias.swift; sourceTree = "<group>"; };
 		FB6B9D4C2ABCC7BA0065BB70 /* DeletrearConSenias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeletrearConSenias.swift; sourceTree = "<group>"; };
 		FB6F77732AC6164800695340 /* QuestionGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionGame.swift; sourceTree = "<group>"; };
@@ -70,13 +80,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FB75F10A2AD46E4D009F442A /* CoreML */ = {
+		FB62B75F2AD714CB00594247 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				FB62B7612AD7155500594247 /* mydata.geojson */,
+				FB62B7632AD7184500594247 /* Classification.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		FB75F10A2AD46E4D009F442A /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				FB75F10B2AD46E76009F442A /* Slequipo1.mlmodel */,
 				FB75F10C2AD46E76009F442A /* Snequipo1.mlmodel */,
+				FB62B75D2AD713E800594247 /* PredictionStatus.swift */,
 			);
-			path = CoreML;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		FB8FA96E2AAFAC9D002E93E8 = {
@@ -112,7 +132,8 @@
 				FB6F77752AC6165B00695340 /* QuestionView.swift */,
 				FB6B9D4A2ABCC3D80065BB70 /* LetrasSenias.swift */,
 				FBABCA1B2ABCD3AF005CE9AC /* MateSenias.swift */,
-				FB75F10A2AD46E4D009F442A /* CoreML */,
+				FB75F10A2AD46E4D009F442A /* Model */,
+				FB62B75F2AD714CB00594247 /* Data */,
 				FBECD0E12AD452AC008EA64C /* Foundation */,
 				FB8FA97E2AAFAC9D002E93E8 /* Assets.xcassets */,
 				FB8FA9802AAFAC9D002E93E8 /* Preview Content */,
@@ -149,6 +170,8 @@
 		FBECD0E22AD452BA008EA64C /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				FB62B7652AD71AF700594247 /* ClassificationView.swift */,
+				FB62B7672AD71B0E00594247 /* ClassifierViewModel.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -236,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBC50BA12AAFCA77000E697E /* Oxygen-Regular.ttf in Resources */,
+				FB62B7622AD7155500594247 /* mydata.geojson in Resources */,
 				FB8FA9822AAFAC9D002E93E8 /* Preview Assets.xcassets in Resources */,
 				FB8FA97F2AAFAC9D002E93E8 /* Assets.xcassets in Resources */,
 			);
@@ -250,6 +274,9 @@
 			files = (
 				FB6F77762AC6165C00695340 /* QuestionView.swift in Sources */,
 				FB75F1122AD46FCB009F442A /* Helpers.swift in Sources */,
+				FB62B7642AD7184500594247 /* Classification.swift in Sources */,
+				FB62B75E2AD713E800594247 /* PredictionStatus.swift in Sources */,
+				FB62B7682AD71B0E00594247 /* ClassifierViewModel.swift in Sources */,
 				FB75F1072AD46578009F442A /* LiveCameraRepresentable.swift in Sources */,
 				FB8FA97D2AAFAC9D002E93E8 /* ContentView.swift in Sources */,
 				FB75F10E2AD46E76009F442A /* Snequipo1.mlmodel in Sources */,
@@ -258,6 +285,7 @@
 				FB9C66252ACCE1A9004FFE8C /* LetraView.swift in Sources */,
 				FB75F1092AD465A7009F442A /* LiveCameraController.swift in Sources */,
 				FB9C66272ACCE1E7004FFE8C /* LetrasViewModel.swift in Sources */,
+				FB62B7662AD71AF700594247 /* ClassificationView.swift in Sources */,
 				FB9C66232ACCE170004FFE8C /* LetrasView.swift in Sources */,
 				FB9C66292ACCE20A004FFE8C /* Letra.swift in Sources */,
 				FBABCA1C2ABCD3AF005CE9AC /* MateSenias.swift in Sources */,
