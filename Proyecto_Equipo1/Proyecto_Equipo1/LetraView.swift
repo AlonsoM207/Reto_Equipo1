@@ -12,12 +12,22 @@ struct LetraView: View {
     @ObservedObject var model: LetrasViewModel
     var body: some View {
         ZStack{
-            VStack(spacing: 32) {
-                WebViewWithGIF(urlString: "SA")
-                    .background(Color("Primary"))
+            Color("Primary")
+                .edgesIgnoringSafeArea(.all)
+            ScrollView {
+                VStack(spacing: 32) {
+                    
+                    Image(letra.name)
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(maxWidth: 400)
+                        .padding(.horizontal, 32)
+                }
+                .padding(32)
             }
+            .navigationTitle(letra.name)
+            .navigationBarTitleDisplayMode(.inline)
         }
-        
     }
 }
 

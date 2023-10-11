@@ -20,8 +20,6 @@
 		FB9C66252ACCE1A9004FFE8C /* LetraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9C66242ACCE1A9004FFE8C /* LetraView.swift */; };
 		FB9C66272ACCE1E7004FFE8C /* LetrasViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9C66262ACCE1E7004FFE8C /* LetrasViewModel.swift */; };
 		FB9C66292ACCE20A004FFE8C /* Letra.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9C66282ACCE20A004FFE8C /* Letra.swift */; };
-		FBA6BD0F2ACF2937005436D5 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA6BD0E2ACF2937005436D5 /* WebView.swift */; };
-		FBA6BD122ACF2BB1005436D5 /* SA.gif in Resources */ = {isa = PBXBuildFile; fileRef = FBA6BD112ACF2BB1005436D5 /* SA.gif */; };
 		FBABCA1C2ABCD3AF005CE9AC /* MateSenias.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBABCA1B2ABCD3AF005CE9AC /* MateSenias.swift */; };
 		FBB471142ACE0D8F00A05957 /* FLAnimatedImage in Frameworks */ = {isa = PBXBuildFile; productRef = FBB471132ACE0D8F00A05957 /* FLAnimatedImage */; };
 		FBC50B9B2AAFC99E000E697E /* GameSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC50B9A2AAFC99E000E697E /* GameSelect.swift */; };
@@ -43,8 +41,6 @@
 		FB9C66242ACCE1A9004FFE8C /* LetraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetraView.swift; sourceTree = "<group>"; };
 		FB9C66262ACCE1E7004FFE8C /* LetrasViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetrasViewModel.swift; sourceTree = "<group>"; };
 		FB9C66282ACCE20A004FFE8C /* Letra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Letra.swift; sourceTree = "<group>"; };
-		FBA6BD0E2ACF2937005436D5 /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
-		FBA6BD112ACF2BB1005436D5 /* SA.gif */ = {isa = PBXFileReference; explicitFileType = image.gif; path = SA.gif; sourceTree = "<group>"; };
 		FBABCA1B2ABCD3AF005CE9AC /* MateSenias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MateSenias.swift; sourceTree = "<group>"; };
 		FBC50B9A2AAFC99E000E697E /* GameSelect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSelect.swift; sourceTree = "<group>"; };
 		FBC50BA02AAFCA77000E697E /* Oxygen-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oxygen-Regular.ttf"; sourceTree = "<group>"; };
@@ -81,7 +77,6 @@
 		FB8FA9792AAFAC9D002E93E8 /* Proyecto_Equipo1 */ = {
 			isa = PBXGroup;
 			children = (
-				FBA6BD102ACF2948005436D5 /* GIFs */,
 				FBC50B9F2AAFCA42000E697E /* Fonts */,
 				FB8FA97A2AAFAC9D002E93E8 /* Proyecto_Equipo1App.swift */,
 				FB6F77732AC6164800695340 /* QuestionGame.swift */,
@@ -96,7 +91,6 @@
 				FBC50B9A2AAFC99E000E697E /* GameSelect.swift */,
 				FB9C661E2ACCDE5E004FFE8C /* TabView2.swift */,
 				FBABCA1B2ABCD3AF005CE9AC /* MateSenias.swift */,
-				FBA6BD0E2ACF2937005436D5 /* WebView.swift */,
 				FB8FA97E2AAFAC9D002E93E8 /* Assets.xcassets */,
 				FB8FA9802AAFAC9D002E93E8 /* Preview Content */,
 			);
@@ -109,14 +103,6 @@
 				FB8FA9812AAFAC9D002E93E8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		FBA6BD102ACF2948005436D5 /* GIFs */ = {
-			isa = PBXGroup;
-			children = (
-				FBA6BD112ACF2BB1005436D5 /* SA.gif */,
-			);
-			path = GIFs;
 			sourceTree = "<group>";
 		};
 		FBC50B9F2AAFCA42000E697E /* Fonts */ = {
@@ -193,7 +179,6 @@
 			files = (
 				FBC50BA12AAFCA77000E697E /* Oxygen-Regular.ttf in Resources */,
 				FB8FA9822AAFAC9D002E93E8 /* Preview Assets.xcassets in Resources */,
-				FBA6BD122ACF2BB1005436D5 /* SA.gif in Resources */,
 				FB8FA97F2AAFAC9D002E93E8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -218,7 +203,6 @@
 				FB6B9D4B2ABCC3D80065BB70 /* LetrasSenias.swift in Sources */,
 				FB6B9D4D2ABCC7BA0065BB70 /* DeletrearConSenias.swift in Sources */,
 				FB9C661F2ACCDE5E004FFE8C /* TabView2.swift in Sources */,
-				FBA6BD0F2ACF2937005436D5 /* WebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
