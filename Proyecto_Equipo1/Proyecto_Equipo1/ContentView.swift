@@ -35,11 +35,17 @@ struct ContentView: View {
                             .font(.system(size: 35))
                     } .buttonStyle(.borderedProminent)
                         .tint(.pink)
-                                            
+                    
+                    NavigationLink(destination: ClassificationView()) {
+                        Text("DEBUG")
+                            .font(.system(size: 35))
+                    } .buttonStyle(.borderedProminent)
+                        .tint(.pink)
                 }
                     
             }
         }
+        .navigationViewStyle(.stack)
     }
 }
 

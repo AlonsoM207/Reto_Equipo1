@@ -8,7 +8,11 @@
 import SwiftUI
 
 struct LetrasSenias: View {
+    @EnvironmentObject var predictionStatus: PredictionStatus
+    @StateObject var classifierViewModel = ClassifierViewModel()
+    
     var body: some View {
+        let predictionLabel = predictionStatus.topLabel
 
             ZStack{
                 // Color de fondo
@@ -27,8 +31,7 @@ struct LetrasSenias: View {
                             .multilineTextAlignment(.center)
                             .foregroundColor(Color("Text"))
                             .font(Font.custom("Oxygen-Regular", size: 30))
-                        .offset(y: -30)
-                        
+                        .offset(y: -30)   
                     }
                     ZStack{
                         Rectangle()
@@ -44,11 +47,21 @@ struct LetrasSenias: View {
                                 .custom("Oxygen-Regular", size: 150))
                             .offset(y: -80)
                     }
-                    
-                    Image("A2")
-                        .resizable()
-                        .scaledToFit()
-                        .offset(y: -100)
+                    // DO NOT EDIT this section. This displays the classification camera
+                    GeometryReader { geo in
+                        VStack(alignment: .center) {
+                            LiveCameraRepresentable() {
+                                predictionStatus.setLivePrediction(with: $0, label: $1, confidence: $2)
+                            }
+                            
+                            //PredictionResultView(labelData: classifierViewModel.getPredictionData(label: predictionLabel))
+                            
+                        }// HStack
+                        .onAppear(perform: classifierViewModel.loadJSON)
+                        .frame(width: geo.size.width)
+                        .offset(x: 45)
+                        .offset(y: -80)
+                    }
                 }
             }
         
