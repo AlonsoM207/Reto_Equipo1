@@ -9,7 +9,9 @@ import SwiftUI
 
 @main
 struct Proyecto_Equipo1App: App {
+    
     @StateObject private var predictionStatus = PredictionStatus()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()

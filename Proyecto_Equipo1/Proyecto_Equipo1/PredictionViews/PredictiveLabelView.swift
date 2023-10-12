@@ -14,7 +14,9 @@ struct PredictiveLabelView: View {
             Text(labelData.label.capitalized)
                 .font(.largeTitle)
             
-            
+            //Text(labelData.emoji)
+              //  .font(.system(size: 100))
+               // .padding(.bottom, 5)
         }
     }
 }

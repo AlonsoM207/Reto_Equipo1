@@ -25,3 +25,4 @@ class PredictionStatus: ObservableObject {
         topConfidence = confidence
     }
 }
+

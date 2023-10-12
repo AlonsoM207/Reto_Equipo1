@@ -16,7 +16,7 @@ struct PredictionResultView: View {
         ZStack(alignment: .top) {
 
         //[OPTIONAL] Edit panel background color here.
-        Color.white
+        Color.red
             .opacity(0.5)
             .ignoresSafeArea()
 

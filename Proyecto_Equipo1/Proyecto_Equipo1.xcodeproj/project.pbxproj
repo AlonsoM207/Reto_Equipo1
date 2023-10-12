@@ -86,6 +86,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB231E032AD862C50078B6FD /* Trainer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Trainer;
+			sourceTree = "<group>";
+		};
 		FB62B75F2AD714CB00594247 /* Data */ = {
 			isa = PBXGroup;
 			children = (
@@ -157,6 +164,7 @@
 				FB6F77752AC6165B00695340 /* QuestionView.swift */,
 				FB6B9D4A2ABCC3D80065BB70 /* LetrasSenias.swift */,
 				FBABCA1B2ABCD3AF005CE9AC /* MateSenias.swift */,
+				FB231E032AD862C50078B6FD /* Trainer */,
 				FB75F10A2AD46E4D009F442A /* Model */,
 				FB62B75F2AD714CB00594247 /* Data */,
 				FB6A76432AD7342F00816954 /* PredictionViews */,
