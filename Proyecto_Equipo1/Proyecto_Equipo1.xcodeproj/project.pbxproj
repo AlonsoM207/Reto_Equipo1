@@ -29,6 +29,7 @@
 		FB8FA97D2AAFAC9D002E93E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8FA97C2AAFAC9D002E93E8 /* ContentView.swift */; };
 		FB8FA97F2AAFAC9D002E93E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB8FA97E2AAFAC9D002E93E8 /* Assets.xcassets */; };
 		FB8FA9822AAFAC9D002E93E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB8FA9812AAFAC9D002E93E8 /* Preview Assets.xcassets */; };
+		FB9C25572AD9C62600A0509B /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9C25562AD9C62600A0509B /* LaunchScreenView.swift */; };
 		FB9C661F2ACCDE5E004FFE8C /* TabView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9C661E2ACCDE5E004FFE8C /* TabView2.swift */; };
 		FB9C66232ACCE170004FFE8C /* LetrasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9C66222ACCE170004FFE8C /* LetrasView.swift */; };
 		FB9C66252ACCE1A9004FFE8C /* LetraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9C66242ACCE1A9004FFE8C /* LetraView.swift */; };
@@ -64,6 +65,7 @@
 		FB8FA97C2AAFAC9D002E93E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FB8FA97E2AAFAC9D002E93E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB8FA9812AAFAC9D002E93E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FB9C25562AD9C62600A0509B /* LaunchScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
 		FB9C661E2ACCDE5E004FFE8C /* TabView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView2.swift; sourceTree = "<group>"; };
 		FB9C66222ACCE170004FFE8C /* LetrasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetrasView.swift; sourceTree = "<group>"; };
 		FB9C66242ACCE1A9004FFE8C /* LetraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetraView.swift; sourceTree = "<group>"; };
@@ -86,13 +88,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FB231E032AD862C50078B6FD /* Trainer */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Trainer;
-			sourceTree = "<group>";
-		};
 		FB62B75F2AD714CB00594247 /* Data */ = {
 			isa = PBXGroup;
 			children = (
@@ -153,6 +148,7 @@
 				FBC50B9F2AAFCA42000E697E /* Fonts */,
 				FB8FA97A2AAFAC9D002E93E8 /* Proyecto_Equipo1App.swift */,
 				FB8FA97C2AAFAC9D002E93E8 /* ContentView.swift */,
+				FB9C25562AD9C62600A0509B /* LaunchScreenView.swift */,
 				FBC50B9A2AAFC99E000E697E /* GameSelect.swift */,
 				FB9C661E2ACCDE5E004FFE8C /* TabView2.swift */,
 				FB9C66262ACCE1E7004FFE8C /* LetrasViewModel.swift */,
@@ -164,7 +160,6 @@
 				FB6F77752AC6165B00695340 /* QuestionView.swift */,
 				FB6B9D4A2ABCC3D80065BB70 /* LetrasSenias.swift */,
 				FBABCA1B2ABCD3AF005CE9AC /* MateSenias.swift */,
-				FB231E032AD862C50078B6FD /* Trainer */,
 				FB75F10A2AD46E4D009F442A /* Model */,
 				FB62B75F2AD714CB00594247 /* Data */,
 				FB6A76432AD7342F00816954 /* PredictionViews */,
@@ -320,6 +315,7 @@
 				FB75F10D2AD46E76009F442A /* Slequipo1.mlmodel in Sources */,
 				FB6B9D4B2ABCC3D80065BB70 /* LetrasSenias.swift in Sources */,
 				FB6B9D4D2ABCC7BA0065BB70 /* DeletrearConSenias.swift in Sources */,
+				FB9C25572AD9C62600A0509B /* LaunchScreenView.swift in Sources */,
 				FB9C661F2ACCDE5E004FFE8C /* TabView2.swift in Sources */,
 				FB6A76472AD7346400816954 /* DisplayedContentView.swift in Sources */,
 				FB75F1102AD46F9E009F442A /* Constants.swift in Sources */,
