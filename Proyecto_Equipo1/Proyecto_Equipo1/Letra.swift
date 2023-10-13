@@ -9,6 +9,7 @@ import Foundation
 
 struct Letra {
     let name: String
+    let gifile: String
 }
 
 extension Letra: Identifiable, Hashable {
