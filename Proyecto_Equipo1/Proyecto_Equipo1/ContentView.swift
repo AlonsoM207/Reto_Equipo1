@@ -6,45 +6,15 @@
 //
 
 import SwiftUI
+import AVFoundation
 
 struct ContentView: View {
+    
     var body: some View {
-        NavigationView{
-            ZStack{
-                // Color de fondo
-                Color("Primary")
-                    .edgesIgnoringSafeArea(.all)
-                VStack {
-                    //Logo de la aplicación
-                    Image("Placeholder")
-                        .resizable()
-                        .cornerRadius(100)
-                        .scaledToFit()
-                        .frame(width: 200, height: 200)
-                        .offset(y:-50)
-                    // Título de la aplicación
-                    Text("Aprendiendo con Señas")
-                        .multilineTextAlignment(.center)
-                        .foregroundColor(Color("Text"))
-                        .font(Font
-                            .custom("Oxygen-Regular", size:45))
-                        .offset(y:-60)
-                    // Botón que lleva a la página principal de la app
-                    NavigationLink(destination: TabView2()) {
-                        Text("Iniciar")
-                            .font(.system(size: 35))
-                    } .buttonStyle(.borderedProminent)
-                        .tint(.pink)
-                                            
-                }
-                    
-            }
+        NavigationView {
+            LaunchScreenView()
         }
-    }
-}
+        .navigationViewStyle(.stack)
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}
+    }// body
+}// View
