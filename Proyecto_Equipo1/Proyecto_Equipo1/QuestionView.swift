@@ -57,9 +57,8 @@ struct QuestionView: View {
 }
 
 
-struct QuestionView_Previews: PreviewProvider {
-    static var previews: some View {
-        let sampleQuestion = Question(title: " ¿Qué vehiculo representa la seña? ", answer: "A", options: ["A", "B", "C", "D"])
-        return QuestionView(question: .constant(sampleQuestion))
-    }
-}
+//struct QuestionView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        QuestionView(question: .constant(Question))
+//    }
+//}
