@@ -11,16 +11,17 @@ struct LetrasSenias: View {
     @EnvironmentObject var predictionStatus: PredictionStatus
     @StateObject var classifierViewModel = ClassifierViewModel()
     private(set) var labelData: Classification
+    @State private var ansChosen = ""
+    @State private var answer = "A"
+    @State private var colorLetra = "white"
     
     var body: some View {
-       let predictionLabel = predictionStatus.topLabel
-
+        let predictionLabel = predictionStatus.topLabel
             ZStack{
                 // Color de fondo
                 Color("Primary")
                     .edgesIgnoringSafeArea(.all)
                 VStack{
-                    
                     ZStack{
                         Rectangle()
                             .foregroundColor(.white)
@@ -36,7 +37,7 @@ struct LetrasSenias: View {
                     }
                     ZStack{
                         Rectangle()
-                            .foregroundColor(.green)
+                            .foregroundColor(Color(colorLetra))
                             .cornerRadius(10)
                             .frame(width: 200, height: 200)
                             .offset(y: -80)
@@ -64,8 +65,29 @@ struct LetrasSenias: View {
                         .offset(x: 20)
                         .offset(y: -80)
                     }
-                    
-                    ShowSignView(labelData: classifierViewModel.getPredictionData(label: predictionLabel))
+                    HStack{
+                        ZStack{
+                            Button(action: {
+                                ansChosen = predictionLabel
+                                print("button pressed")
+                                if ansChosen == answer{
+                                    colorLetra = "green"
+                                } else {
+                                    colorLetra = "red"
+                                }
+                                    }) {
+                                        Image("Camara")
+                                        .resizable()
+                                        .frame(width: 40, height: 40)
+                                        
+                                    }
+                                    .buttonStyle(.borderedProminent)
+                                        .tint(.green)
+                                        .offset(y: -50)
+
+                        }
+                        ShowSignView(labelData: classifierViewModel.getPredictionData(label: predictionLabel))
+                    }
                 }
             }
         
