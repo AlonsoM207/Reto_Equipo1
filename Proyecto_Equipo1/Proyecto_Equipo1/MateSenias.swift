@@ -116,7 +116,7 @@ struct MateSenias: View {
                     }// HStack
                     .onAppear(perform: classifierViewModel.loadJSON)
                     .frame(width: geo.size.width)
-                    .offset(x: 45)
+                    .offset(x: 20)
                     .offset(y: -80)
                 }
             }

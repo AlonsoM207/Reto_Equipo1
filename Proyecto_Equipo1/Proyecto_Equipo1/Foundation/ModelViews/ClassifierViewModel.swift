@@ -13,7 +13,7 @@ final class ClassifierViewModel: ObservableObject {
     
     func loadJSON() {
         print("load JSON")
-        if let url = Bundle.main.url(forResource: "mydata", withExtension: "json") {
+        if let url = Bundle.main.url(forResource: "mydata", withExtension: "geojson") {
             do {
                 let jsonData = try Data(contentsOf: url)
                 let decoder = JSONDecoder()

@@ -32,7 +32,7 @@ struct GameSelect: View {
                 // Imagen para cada uno de los juegos que debe de llevar al juego correspondiente
                 //  Pero aún no se ha agregado
                 
-                NavigationLink(destination: LetrasSenias()){
+                NavigationLink(destination: LetrasSenias(labelData: Classification())){
                     ZStack{
                         Rectangle()
                             .foregroundColor(Color("GameStack1"))

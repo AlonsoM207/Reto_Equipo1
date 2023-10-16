@@ -10,9 +10,10 @@ import SwiftUI
 struct LetrasSenias: View {
     @EnvironmentObject var predictionStatus: PredictionStatus
     @StateObject var classifierViewModel = ClassifierViewModel()
+    private(set) var labelData: Classification
     
     var body: some View {
-        let predictionLabel = predictionStatus.topLabel
+       let predictionLabel = predictionStatus.topLabel
 
             ZStack{
                 // Color de fondo
@@ -47,6 +48,7 @@ struct LetrasSenias: View {
                                 .custom("Oxygen-Regular", size: 150))
                             .offset(y: -80)
                     }
+        
                     // DO NOT EDIT this section. This displays the classification camera
                     GeometryReader { geo in
                         VStack(alignment: .center) {
@@ -59,9 +61,11 @@ struct LetrasSenias: View {
                         }// HStack
                         .onAppear(perform: classifierViewModel.loadJSON)
                         .frame(width: geo.size.width)
-                        .offset(x: 45)
+                        .offset(x: 20)
                         .offset(y: -80)
                     }
+                    
+                    ShowSignView(labelData: classifierViewModel.getPredictionData(label: predictionLabel))
                 }
             }
         
@@ -70,6 +74,6 @@ struct LetrasSenias: View {
 
 struct Letras_Sen_as_Previews: PreviewProvider {
     static var previews: some View {
-        LetrasSenias()
+        LetrasSenias(labelData: Classification())
     }
 }

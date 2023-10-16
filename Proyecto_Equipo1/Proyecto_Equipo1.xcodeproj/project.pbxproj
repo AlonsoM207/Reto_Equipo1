@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11E580CC2ADCF760005977A9 /* ShowSignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E580CB2ADCF75F005977A9 /* ShowSignView.swift */; };
 		FB62B75E2AD713E800594247 /* PredictionStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB62B75D2AD713E800594247 /* PredictionStatus.swift */; };
 		FB62B7622AD7155500594247 /* mydata.geojson in Resources */ = {isa = PBXBuildFile; fileRef = FB62B7612AD7155500594247 /* mydata.geojson */; };
 		FB62B7642AD7184500594247 /* Classification.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB62B7632AD7184500594247 /* Classification.swift */; };
@@ -42,6 +43,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11E580CB2ADCF75F005977A9 /* ShowSignView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowSignView.swift; sourceTree = "<group>"; };
 		FB62B75D2AD713E800594247 /* PredictionStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictionStatus.swift; sourceTree = "<group>"; };
 		FB62B7612AD7155500594247 /* mydata.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = mydata.geojson; sourceTree = "<group>"; };
 		FB62B7632AD7184500594247 /* Classification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classification.swift; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 				FB6F77732AC6164800695340 /* QuestionGame.swift */,
 				FB6F77752AC6165B00695340 /* QuestionView.swift */,
 				FB6B9D4A2ABCC3D80065BB70 /* LetrasSenias.swift */,
+				11E580CB2ADCF75F005977A9 /* ShowSignView.swift */,
 				FBABCA1B2ABCD3AF005CE9AC /* MateSenias.swift */,
 				FB75F10A2AD46E4D009F442A /* Model */,
 				FB62B75F2AD714CB00594247 /* Data */,
@@ -310,6 +313,7 @@
 				FB62B7662AD71AF700594247 /* ClassificationView.swift in Sources */,
 				FB9C66232ACCE170004FFE8C /* LetrasView.swift in Sources */,
 				FB9C66292ACCE20A004FFE8C /* Letra.swift in Sources */,
+				11E580CC2ADCF760005977A9 /* ShowSignView.swift in Sources */,
 				FBABCA1C2ABCD3AF005CE9AC /* MateSenias.swift in Sources */,
 				FB6F77742AC6164800695340 /* QuestionGame.swift in Sources */,
 				FB75F10D2AD46E76009F442A /* Slequipo1.mlmodel in Sources */,
