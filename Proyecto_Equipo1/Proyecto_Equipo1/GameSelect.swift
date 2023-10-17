@@ -90,7 +90,7 @@ struct GameSelect: View {
                 }
                 .padding()
                 .offset(y: -20)
-                NavigationLink(destination: MateSenias()){
+                NavigationLink(destination: QuestionGame()){
                     ZStack{
                         Rectangle()
                             .foregroundColor(Color("GameStack4"))
