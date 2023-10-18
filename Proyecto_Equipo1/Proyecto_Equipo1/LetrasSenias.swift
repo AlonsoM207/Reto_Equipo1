@@ -54,7 +54,7 @@ struct LetrasSenias: View {
                         }// HStack
                         .onAppear(perform: classifierViewModel.loadJSON)
                         .frame(width: geo.size.width)
-                        .offset(x: 20)
+                        
                         .offset(y: -80)
                     }
                     HStack{
@@ -131,11 +131,11 @@ struct LetrasSenias: View {
                                     }
                                     .buttonStyle(.borderedProminent)
                                         .tint(.green)
-                                        .offset(y: -50)
+                                        
 
                         }
                         ShowSignView(labelData: classifierViewModel.getPredictionData(label: predictionLabel))
-                    }
+                    }.offset(y: -50)
                 }
             }
         
