@@ -120,6 +120,26 @@ struct LetrasSenias: View {
                                     picture = 27
                                 } else if ansChosen == "Z"{
                                     picture = 28
+                                } else if ansChosen == "1"{
+                                    picture = 29
+                                } else if ansChosen == "2"{
+                                    picture = 30
+                                } else if ansChosen == "3"{
+                                    picture = 31
+                                } else if ansChosen == "4"{
+                                    picture = 32
+                                } else if ansChosen == "5"{
+                                    picture = 33
+                                } else if ansChosen == "6"{
+                                    picture = 34
+                                } else if ansChosen == "7"{
+                                    picture = 35
+                                } else if ansChosen == "8"{
+                                    picture = 36
+                                } else if ansChosen == "9"{
+                                    picture = 37
+                                } else if ansChosen == "10"{
+                                    picture = 38
                                 } else {
                                     print("UNKNOWN")
                                 }
