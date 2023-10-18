@@ -6,7 +6,7 @@
 //
 
 import Foundation
-
+/*
 class QuizManager: ObservableObject{
     
     @Published var questions = [Question]()
@@ -34,4 +34,4 @@ class QuizManager: ObservableObject{
         return "\((corrrect/CGFloat(mockQuestion.count)) * 100) %"
     }
 }
-
+*/

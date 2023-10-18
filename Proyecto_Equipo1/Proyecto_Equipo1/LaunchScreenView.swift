@@ -9,7 +9,6 @@ import SwiftUI
 
 struct LaunchScreenView: View {
     var body: some View {
-        NavigationView{
             ZStack{
                 // Color de fondo
                 Color("Primary")
@@ -35,17 +34,9 @@ struct LaunchScreenView: View {
                             .font(.system(size: 35))
                     } .buttonStyle(.borderedProminent)
                         .tint(.pink)
-                    
-                    NavigationLink(destination: ClassificationView()) {
-                        Text("DEBUG")
-                            .font(.system(size: 35))
-                    } .buttonStyle(.borderedProminent)
-                        .tint(.pink)
                 }
                     
             }
-        }
-        .navigationViewStyle(.stack)
     }
 }
 

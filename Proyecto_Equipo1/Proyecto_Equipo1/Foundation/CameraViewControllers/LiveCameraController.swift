@@ -65,7 +65,7 @@ final class LiveCameraViewController: UIViewController {
     private func setUpLiveCapture() {
         let videoDevice = AVCaptureDevice.DiscoverySession(
             deviceTypes: [.builtInWideAngleCamera],
-            mediaType: .video, position: .front
+            mediaType: .video, position: .back
         ).devices.first
         guard let videoDevice = videoDevice else { return }
         
