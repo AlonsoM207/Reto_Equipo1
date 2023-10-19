@@ -100,6 +100,7 @@
 		1103E6862AE0DD140089FEF7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1103E6882AE0E1B70089FEF7 /* PredictionStatus2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictionStatus2.swift; sourceTree = "<group>"; };
 		1103E68C2AE0E3580089FEF7 /* LetrasSenias2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetrasSenias2.swift; sourceTree = "<group>"; };
+		112449972AE18F4D00DD9858 /* mydata2.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = mydata2.geojson; sourceTree = "<group>"; };
 		1159C6212AE189E0000C768E /* S1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = S1.gif; sourceTree = "<group>"; };
 		11E580CB2ADCF75F005977A9 /* ShowSignView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowSignView.swift; sourceTree = "<group>"; };
 		FB0583132AE171D200A990F5 /* S10.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = S10.gif; sourceTree = "<group>"; };
@@ -207,6 +208,7 @@
 			isa = PBXGroup;
 			children = (
 				FB62B7612AD7155500594247 /* mydata.geojson */,
+				112449972AE18F4D00DD9858 /* mydata2.geojson */,
 				FB62B7632AD7184500594247 /* Classification.swift */,
 				FB05832C2AE17C2300A990F5 /* Classification2.swift */,
 			);

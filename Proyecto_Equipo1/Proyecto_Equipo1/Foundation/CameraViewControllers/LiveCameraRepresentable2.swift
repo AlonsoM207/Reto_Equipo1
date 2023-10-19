@@ -4,7 +4,7 @@
 //
 //  Created by Alumno on 09/10/23.
 //
-/*
+
 import Foundation
 import SwiftUI
 import AVFoundation
@@ -27,4 +27,4 @@ struct LiveCameraRepresentable2: UIViewControllerRepresentable {
     }
 }
 
-*/
+

@@ -51,7 +51,7 @@ struct GameSelect: View {
                     }
                 }
                 .padding()
-                /*
+                
                 NavigationLink(destination: LetrasSenias2(labelData: Classification2())){
                     ZStack{
                         Rectangle()
@@ -71,7 +71,7 @@ struct GameSelect: View {
                     }
                 }
                 .padding()
-                */
+                
                 NavigationLink(destination: DeletrearConSenias()){
                     ZStack{
                         Rectangle()

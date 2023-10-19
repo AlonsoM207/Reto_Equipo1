@@ -4,7 +4,7 @@
 //
 //  Created by Alumno on 11/10/23.
 //
-/*
+
 import Foundation
 
 final class ClassifierViewModel2: ObservableObject {
@@ -30,4 +30,4 @@ final class ClassifierViewModel2: ObservableObject {
         return classifierData.filter { $0.label == label }.first ?? Classification2()
     }
 }
-*/
+

@@ -4,7 +4,7 @@
 //
 //  Created by Alumno on 11/10/23.
 //
-/*
+
 import Foundation
 import SwiftUI
 import Vision
@@ -27,4 +27,4 @@ class PredictionStatus2: ObservableObject {
     }
 }
 
-*/
+

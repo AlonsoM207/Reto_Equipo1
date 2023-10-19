@@ -4,7 +4,7 @@
 //
 //  Created by Alumno on 21/09/23.
 //
-/*
+
 import SwiftUI
 
 struct LetrasSenias2: View {
@@ -167,4 +167,4 @@ struct LetrasSenias2_Previews: PreviewProvider {
         LetrasSenias2(labelData: Classification2())
     }
 }
-*/
+
