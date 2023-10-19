@@ -12,8 +12,8 @@ import Vision
 class PredictionStatus2: ObservableObject {
     @Published var modelUrl = URL(fileURLWithPath: "")
     // TODO - replace with the name of your classifier
-    @Published var modelObject = SL3Equipo1()
-    //@Published var modelObject2 = SN2Equipo1()
+    //@Published var modelObject = SL3Equipo1()
+    @Published var modelObject = CablesYEntradas()
     @Published var topLabel = ""
     @Published var topConfidence = ""
     
