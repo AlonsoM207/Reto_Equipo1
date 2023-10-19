@@ -17,6 +17,7 @@ struct Proyecto_Equipo1App: App {
         WindowGroup {
             ContentView()
                 .environmentObject(predictionStatus)
+                .environmentObject(predictionStatus2)
         }
     }
 }

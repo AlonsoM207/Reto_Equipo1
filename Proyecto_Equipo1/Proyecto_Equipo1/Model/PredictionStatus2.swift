@@ -13,14 +13,14 @@ class PredictionStatus2: ObservableObject {
     @Published var modelUrl = URL(fileURLWithPath: "")
     // TODO - replace with the name of your classifier
     //@Published var modelObject = SL3Equipo1()
-    @Published var modelObject = CablesYEntradas()
+    @Published var modelObject = SeniasLetrasEq1()
     @Published var topLabel = ""
     @Published var topConfidence = ""
     
     // Live prediction results
-    @Published var livePrediction: LivePredictionResults = [:]
+    @Published var livePrediction: LivePredictionResults2 = [:]
     
-    func setLivePrediction(with results: LivePredictionResults, label: String, confidence: String) {
+    func setLivePrediction2(with results: LivePredictionResults2, label: String, confidence: String) {
         livePrediction = results
         topLabel = label
         topConfidence = confidence

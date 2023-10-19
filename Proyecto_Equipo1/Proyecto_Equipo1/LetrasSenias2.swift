@@ -10,8 +10,8 @@ import SwiftUI
 struct LetrasSenias2: View {
     @EnvironmentObject var predictionStatus2: PredictionStatus2
     @StateObject private var model = LetrasViewModel()
-    @StateObject var classifierViewModel = ClassifierViewModel()
-    private(set) var labelData: Classification
+    @StateObject var classifierViewModel2 = ClassifierViewModel2()
+    private(set) var labelData: Classification2
     @State private var ansChosen = ""
     @State private var picture = 1
     @State private var colorLetra = "white"
@@ -45,14 +45,14 @@ struct LetrasSenias2: View {
                     // DO NOT EDIT this section. This displays the classification camera
                     GeometryReader { geo in
                         VStack(alignment: .center) {
-                            LiveCameraRepresentable() {
-                                predictionStatus2.setLivePrediction(with: $0, label: $1, confidence: $2)
+                            LiveCameraRepresentable2() {
+                                predictionStatus2.setLivePrediction2(with: $0, label: $1, confidence: $2)
                             }
                             
                             //PredictionResultView(labelData: classifierViewModel.getPredictionData(label: predictionLabel))
                             
                         }// HStack
-                        .onAppear(perform: classifierViewModel.loadJSON)
+                        .onAppear(perform: classifierViewModel2.loadJSON)
                         .frame(width: geo.size.width)
                         
                         .offset(y: -80)
@@ -154,7 +154,7 @@ struct LetrasSenias2: View {
                                         
 
                         }
-                        ShowSignView(labelData: classifierViewModel.getPredictionData(label: predictionLabel))
+                        ShowSignView2(labelData: classifierViewModel2.getPredictionData2(label: predictionLabel))
                     }.offset(y: -50)
                 }
             }
@@ -164,6 +164,6 @@ struct LetrasSenias2: View {
 
 struct LetrasSenias2_Previews: PreviewProvider {
     static var previews: some View {
-        LetrasSenias2(labelData: Classification())
+        LetrasSenias2(labelData: Classification2())
     }
 }
