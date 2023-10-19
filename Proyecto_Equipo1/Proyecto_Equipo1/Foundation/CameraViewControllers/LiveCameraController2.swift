@@ -4,7 +4,7 @@
 //
 //  Created by Alumno on 09/10/23.
 //
-
+/*
 import UIKit
 import os
 import AVFoundation
@@ -212,4 +212,4 @@ extension LiveCameraViewController2: AVCaptureVideoDataOutputSampleBufferDelegat
          */
     }
 }
-
+*/

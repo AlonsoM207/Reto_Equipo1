@@ -4,7 +4,7 @@
 //
 //  Created by Alumno on 15/10/23.
 //
-
+/*
 import SwiftUI
 
 struct ShowSignView2: View {
@@ -32,3 +32,4 @@ struct ShowSignView2_Previews: PreviewProvider {
         ShowSignView2(labelData: Classification2())
     }
 }
+*/
