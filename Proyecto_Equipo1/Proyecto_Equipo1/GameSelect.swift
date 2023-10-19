@@ -27,7 +27,7 @@ struct GameSelect: View {
                         .font(Font
                             .custom("Oxygen-Regular", size: 35))
                 }
-                .offset(y: 30)
+                //.offset(y: 30)
                 
                 // Imagen para cada uno de los juegos que debe de llevar al juego correspondiente
                 //  Pero aún no se ha agregado
@@ -51,11 +51,12 @@ struct GameSelect: View {
                     }
                 }
                 .padding()
-                .offset(y: 20)
+                //.offset(y: 20)
+            
                 NavigationLink(destination: DeletrearConSenias()){
                     ZStack{
                         Rectangle()
-                            .foregroundColor(Color("GameStack2"))
+                            .foregroundColor(Color("GameStack3"))
                             .cornerRadius(20)
                             .frame(width: 300, height: 125)
                         VStack{
@@ -63,25 +64,6 @@ struct GameSelect: View {
                                 .resizable()
                                 .frame(width: 40, height: 40)
                             Text("Deletrear")
-                                .foregroundColor(Color("TextAlt"))
-                                .font(Font
-                                    .custom("Oxygen-Regular", size:30))
-                        }
-                    }
-                }
-                .padding()
-                
-                NavigationLink(destination: MateSenias()){
-                    ZStack{
-                        Rectangle()
-                            .foregroundColor(Color("GameStack3"))
-                            .cornerRadius(20)
-                            .frame(width: 300, height: 125)
-                        VStack{
-                            Image("Math")
-                                .resizable()
-                                .frame(width: 40, height: 40)
-                            Text("Matemáticas")
                                 .foregroundColor(.white)
                                 .font(Font
                                     .custom("Oxygen-Regular", size:30))
@@ -89,7 +71,7 @@ struct GameSelect: View {
                     }
                 }
                 .padding()
-                .offset(y: -20)
+                //.offset(y: -20)
                 NavigationLink(destination: Home()){
                     ZStack{
                         Rectangle()
@@ -100,7 +82,7 @@ struct GameSelect: View {
                             Image("Options")
                                 .resizable()
                                 .frame(width: 40, height: 40)
-                            Text("Opciones")
+                            Text("Quiz")
                                 .foregroundColor(.white)
                                 .font(Font
                                     .custom("Oxygen-Regular", size:30))
@@ -108,7 +90,7 @@ struct GameSelect: View {
                     }
                 }
                 .padding()
-                .offset(y: -40)
+                //.offset(y: -40)
                 }
             }
         }
