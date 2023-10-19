@@ -13,34 +13,41 @@ struct LetrasView: View {
     
     var body: some View {
         NavigationStack{
-            ScrollView {
-                VStack(spacing: 16) {
-                    if model.isLoading {
-                        ProgressView()
-                            .padding(32)
-                            .controlSize(.large)
-                    } else {
-                        
-                        ForEach(model.letras) { letra in
-                            NavigationLink(value: letra) {
-                                HStack(spacing: 32) {
-                                    Text(letra.name)
-                                        .font(Font.custom("Oxygen-Regular", size: 33))
-                                        .multilineTextAlignment(.leading)
-                                        .frame(maxWidth: .infinity, alignment: .leading)
+            ZStack{
+                Color("Primary")
+                    .edgesIgnoringSafeArea(.all)
+                ScrollView {
+                    VStack(spacing: 16) {
+                        if model.isLoading {
+                            ProgressView()
+                                .padding(32)
+                                .controlSize(.large)
+                        } else {
+                            
+                            ForEach(model.letras) { letra in
+                                NavigationLink(value: letra) {
+                                    HStack(spacing: 32) {
+                                        Text(letra.name)
+                                            .foregroundColor(Color("TextAlt"))
+                                            .font(Font.custom("Oxygen-Regular", size: 33))
+                                            .multilineTextAlignment(.leading)
+                                            .frame(maxWidth: .infinity, alignment: .leading)
+                                        
+                                    }
+                                    .padding()
+                                    .background(Color("red"), in: RoundedRectangle(cornerRadius: 20, style: .continuous))
+                                    
                                     
                                 }
-                                .padding()
-                                .background(Material.regular, in: RoundedRectangle(cornerRadius: 20, style: .continuous))
+                                .buttonStyle(.plain)
+                                
                             }
-                            .buttonStyle(.plain)
                         }
                     }
+                    .padding()
                 }
-                .padding()
             }
             .navigationTitle("Señas")
-            .background(Color("Primary"))
             .navigationDestination(for: Letra.self) {letra in
                 LetraView(letra: letra, model: LetrasViewModel())
             }

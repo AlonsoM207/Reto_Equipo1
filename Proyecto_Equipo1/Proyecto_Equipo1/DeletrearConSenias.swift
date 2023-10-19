@@ -14,11 +14,17 @@ struct DeletrearConSenias: View {
                 Color("Primary")
                     .edgesIgnoringSafeArea(.all)
                 VStack{
-                    Text("Deletrea este objeto usando señas")
-                        .multilineTextAlignment(.center)
-                        .foregroundColor(Color("Text"))
-                        .font(Font
-                        .custom("Oxygen-Regular", size: 35))
+                    ZStack{
+                        Rectangle()
+                            .foregroundColor(.white)
+                            .cornerRadius(10)
+                            .frame(width: 450, height: 70)
+                        Text("Deletrea este objeto usando señas")
+                            .multilineTextAlignment(.center)
+                            .foregroundColor(Color("Text"))
+                            .font(Font
+                                .custom("Oxygen-Regular", size: 35))
+                    }
                     Image("Placeholder2")
                         .resizable()
                         .scaledToFit()

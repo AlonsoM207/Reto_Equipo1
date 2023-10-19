@@ -12,7 +12,8 @@ import Vision
 class PredictionStatus: ObservableObject {
     @Published var modelUrl = URL(fileURLWithPath: "")
     // TODO - replace with the name of your classifier
-    @Published var modelObject = Slequipo1()
+    //@Published var modelObject = SN3Equipo1()
+    @Published var modelObject = SeniasNumerosEq1()
     @Published var topLabel = ""
     @Published var topConfidence = ""
     

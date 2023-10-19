@@ -7,21 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1103E67B2AE0DBC90089FEF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1103E67A2AE0DBC90089FEF7 /* AppDelegate.swift */; };
+		1103E67D2AE0DBF50089FEF7 /* FinalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1103E67C2AE0DBF50089FEF7 /* FinalView.swift */; };
+		1103E67F2AE0DC230089FEF7 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1103E67E2AE0DC230089FEF7 /* Home.swift */; };
+		1103E6812AE0DC660089FEF7 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1103E6802AE0DC660089FEF7 /* ProgressView.swift */; };
+		1103E6832AE0DCAE0089FEF7 /* Quiz1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1103E6822AE0DCAE0089FEF7 /* Quiz1.swift */; };
+		1103E6852AE0DCEB0089FEF7 /* quizModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1103E6842AE0DCEB0089FEF7 /* quizModel.swift */; };
+		1103E6872AE0DD140089FEF7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1103E6862AE0DD140089FEF7 /* SceneDelegate.swift */; };
+		1103E6892AE0E1B70089FEF7 /* PredictionStatus2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1103E6882AE0E1B70089FEF7 /* PredictionStatus2.swift */; };
+		1103E68D2AE0E3580089FEF7 /* LetrasSenias2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1103E68C2AE0E3580089FEF7 /* LetrasSenias2.swift */; };
+		1159C6222AE189E0000C768E /* S1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1159C6212AE189E0000C768E /* S1.gif */; };
 		11E580CC2ADCF760005977A9 /* ShowSignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E580CB2ADCF75F005977A9 /* ShowSignView.swift */; };
+		FB0583142AE171D200A990F5 /* S10.gif in Resources */ = {isa = PBXBuildFile; fileRef = FB0583132AE171D200A990F5 /* S10.gif */; };
+		FB0583162AE171E100A990F5 /* S9.gif in Resources */ = {isa = PBXBuildFile; fileRef = FB0583152AE171E100A990F5 /* S9.gif */; };
+		FB0583182AE171E600A990F5 /* S8.gif in Resources */ = {isa = PBXBuildFile; fileRef = FB0583172AE171E500A990F5 /* S8.gif */; };
+		FB05831A2AE171F100A990F5 /* S7.gif in Resources */ = {isa = PBXBuildFile; fileRef = FB0583192AE171F100A990F5 /* S7.gif */; };
+		FB05831C2AE171FC00A990F5 /* S6.gif in Resources */ = {isa = PBXBuildFile; fileRef = FB05831B2AE171FC00A990F5 /* S6.gif */; };
+		FB05831E2AE1720500A990F5 /* S5.gif in Resources */ = {isa = PBXBuildFile; fileRef = FB05831D2AE1720500A990F5 /* S5.gif */; };
+		FB0583202AE1720D00A990F5 /* S4.gif in Resources */ = {isa = PBXBuildFile; fileRef = FB05831F2AE1720D00A990F5 /* S4.gif */; };
+		FB0583222AE1722700A990F5 /* S3.gif in Resources */ = {isa = PBXBuildFile; fileRef = FB0583212AE1722700A990F5 /* S3.gif */; };
+		FB0583242AE1722B00A990F5 /* S2.gif in Resources */ = {isa = PBXBuildFile; fileRef = FB0583232AE1722B00A990F5 /* S2.gif */; };
+		FB0583282AE1737B00A990F5 /* SeniasNumerosEq1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FB0583272AE1737B00A990F5 /* SeniasNumerosEq1.mlmodel */; };
+		FB05832A2AE175FE00A990F5 /* SeniasLetrasEq1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FB0583292AE175FE00A990F5 /* SeniasLetrasEq1.mlmodel */; };
+		FB05832D2AE17C2400A990F5 /* Classification2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB05832C2AE17C2300A990F5 /* Classification2.swift */; };
+		FB05832F2AE17C5B00A990F5 /* ClassifierViewModel2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB05832E2AE17C5B00A990F5 /* ClassifierViewModel2.swift */; };
+		FB0583312AE17DC500A990F5 /* ShowSignView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0583302AE17DC500A990F5 /* ShowSignView2.swift */; };
+		FB0583332AE1810400A990F5 /* LiveCameraController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0583322AE1810400A990F5 /* LiveCameraController2.swift */; };
+		FB0583352AE181E300A990F5 /* LiveCameraRepresentable2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0583342AE181E300A990F5 /* LiveCameraRepresentable2.swift */; };
+		FB37BB082ADF512000B622A9 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB37BB072ADF512000B622A9 /* WebView.swift */; };
 		FB62B75E2AD713E800594247 /* PredictionStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB62B75D2AD713E800594247 /* PredictionStatus.swift */; };
 		FB62B7622AD7155500594247 /* mydata.geojson in Resources */ = {isa = PBXBuildFile; fileRef = FB62B7612AD7155500594247 /* mydata.geojson */; };
 		FB62B7642AD7184500594247 /* Classification.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB62B7632AD7184500594247 /* Classification.swift */; };
-		FB62B7662AD71AF700594247 /* ClassificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB62B7652AD71AF700594247 /* ClassificationView.swift */; };
 		FB62B7682AD71B0E00594247 /* ClassifierViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB62B7672AD71B0E00594247 /* ClassifierViewModel.swift */; };
-		FB6A76422AD733C900816954 /* PredictionResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6A76412AD733C900816954 /* PredictionResultView.swift */; };
-		FB6A76452AD7345900816954 /* PredictiveLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6A76442AD7345900816954 /* PredictiveLabelView.swift */; };
-		FB6A76472AD7346400816954 /* DisplayedContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6A76462AD7346400816954 /* DisplayedContentView.swift */; };
 		FB6B9D4B2ABCC3D80065BB70 /* LetrasSenias.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6B9D4A2ABCC3D80065BB70 /* LetrasSenias.swift */; };
 		FB6B9D4D2ABCC7BA0065BB70 /* DeletrearConSenias.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6B9D4C2ABCC7BA0065BB70 /* DeletrearConSenias.swift */; };
 		FB75F1072AD46578009F442A /* LiveCameraRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB75F1062AD46578009F442A /* LiveCameraRepresentable.swift */; };
 		FB75F1092AD465A7009F442A /* LiveCameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB75F1082AD465A7009F442A /* LiveCameraController.swift */; };
-		FB75F10D2AD46E76009F442A /* Slequipo1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FB75F10B2AD46E76009F442A /* Slequipo1.mlmodel */; };
-		FB75F10E2AD46E76009F442A /* Snequipo1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FB75F10C2AD46E76009F442A /* Snequipo1.mlmodel */; };
 		FB75F1102AD46F9E009F442A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB75F10F2AD46F9E009F442A /* Constants.swift */; };
 		FB75F1122AD46FCB009F442A /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB75F1112AD46FCB009F442A /* Helpers.swift */; };
 		FB8FA97B2AAFAC9D002E93E8 /* Proyecto_Equipo1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8FA97A2AAFAC9D002E93E8 /* Proyecto_Equipo1App.swift */; };
@@ -34,7 +55,6 @@
 		FB9C66252ACCE1A9004FFE8C /* LetraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9C66242ACCE1A9004FFE8C /* LetraView.swift */; };
 		FB9C66272ACCE1E7004FFE8C /* LetrasViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9C66262ACCE1E7004FFE8C /* LetrasViewModel.swift */; };
 		FB9C66292ACCE20A004FFE8C /* Letra.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9C66282ACCE20A004FFE8C /* Letra.swift */; };
-		FBA498122ADDBAF900711A11 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA498112ADDBAF900711A11 /* WebView.swift */; };
 		FBA498312ADDBB5400711A11 /* SI.gif in Resources */ = {isa = PBXBuildFile; fileRef = FBA498142ADDBB5300711A11 /* SI.gif */; };
 		FBA498322ADDBB5400711A11 /* SH.gif in Resources */ = {isa = PBXBuildFile; fileRef = FBA498152ADDBB5300711A11 /* SH.gif */; };
 		FBA498332ADDBB5400711A11 /* SJ.gif in Resources */ = {isa = PBXBuildFile; fileRef = FBA498162ADDBB5300711A11 /* SJ.gif */; };
@@ -64,10 +84,6 @@
 		FBA4984B2ADDBB5400711A11 /* SE.gif in Resources */ = {isa = PBXBuildFile; fileRef = FBA4982E2ADDBB5300711A11 /* SE.gif */; };
 		FBA4984C2ADDBB5400711A11 /* SD.gif in Resources */ = {isa = PBXBuildFile; fileRef = FBA4982F2ADDBB5300711A11 /* SD.gif */; };
 		FBA4984D2ADDBB5400711A11 /* SS.gif in Resources */ = {isa = PBXBuildFile; fileRef = FBA498302ADDBB5300711A11 /* SS.gif */; };
-		FBA4984F2ADDBE6300711A11 /* QuestionGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA4984E2ADDBE6200711A11 /* QuestionGame.swift */; };
-		FBA498512ADDBE8700711A11 /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA498502ADDBE8700711A11 /* ResultsView.swift */; };
-		FBA498532ADDBE8D00711A11 /* QuizManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA498522ADDBE8D00711A11 /* QuizManager.swift */; };
-		FBA498572ADDBEC200711A11 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA498562ADDBEC200711A11 /* QuestionView.swift */; };
 		FBABCA1C2ABCD3AF005CE9AC /* MateSenias.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBABCA1B2ABCD3AF005CE9AC /* MateSenias.swift */; };
 		FBB471142ACE0D8F00A05957 /* FLAnimatedImage in Frameworks */ = {isa = PBXBuildFile; productRef = FBB471132ACE0D8F00A05957 /* FLAnimatedImage */; };
 		FBC50B9B2AAFC99E000E697E /* GameSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC50B9A2AAFC99E000E697E /* GameSelect.swift */; };
@@ -75,21 +91,42 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1103E67A2AE0DBC90089FEF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1103E67C2AE0DBF50089FEF7 /* FinalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalView.swift; sourceTree = "<group>"; };
+		1103E67E2AE0DC230089FEF7 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		1103E6802AE0DC660089FEF7 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		1103E6822AE0DCAE0089FEF7 /* Quiz1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz1.swift; sourceTree = "<group>"; };
+		1103E6842AE0DCEB0089FEF7 /* quizModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizModel.swift; sourceTree = "<group>"; };
+		1103E6862AE0DD140089FEF7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1103E6882AE0E1B70089FEF7 /* PredictionStatus2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictionStatus2.swift; sourceTree = "<group>"; };
+		1103E68C2AE0E3580089FEF7 /* LetrasSenias2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetrasSenias2.swift; sourceTree = "<group>"; };
+		1159C6212AE189E0000C768E /* S1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = S1.gif; sourceTree = "<group>"; };
 		11E580CB2ADCF75F005977A9 /* ShowSignView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowSignView.swift; sourceTree = "<group>"; };
+		FB0583132AE171D200A990F5 /* S10.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = S10.gif; sourceTree = "<group>"; };
+		FB0583152AE171E100A990F5 /* S9.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = S9.gif; sourceTree = "<group>"; };
+		FB0583172AE171E500A990F5 /* S8.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = S8.gif; sourceTree = "<group>"; };
+		FB0583192AE171F100A990F5 /* S7.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = S7.gif; sourceTree = "<group>"; };
+		FB05831B2AE171FC00A990F5 /* S6.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = S6.gif; sourceTree = "<group>"; };
+		FB05831D2AE1720500A990F5 /* S5.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = S5.gif; sourceTree = "<group>"; };
+		FB05831F2AE1720D00A990F5 /* S4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = S4.gif; sourceTree = "<group>"; };
+		FB0583212AE1722700A990F5 /* S3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = S3.gif; sourceTree = "<group>"; };
+		FB0583232AE1722B00A990F5 /* S2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = S2.gif; sourceTree = "<group>"; };
+		FB0583272AE1737B00A990F5 /* SeniasNumerosEq1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SeniasNumerosEq1.mlmodel; sourceTree = "<group>"; };
+		FB0583292AE175FE00A990F5 /* SeniasLetrasEq1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SeniasLetrasEq1.mlmodel; sourceTree = "<group>"; };
+		FB05832C2AE17C2300A990F5 /* Classification2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classification2.swift; sourceTree = "<group>"; };
+		FB05832E2AE17C5B00A990F5 /* ClassifierViewModel2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassifierViewModel2.swift; sourceTree = "<group>"; };
+		FB0583302AE17DC500A990F5 /* ShowSignView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowSignView2.swift; sourceTree = "<group>"; };
+		FB0583322AE1810400A990F5 /* LiveCameraController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveCameraController2.swift; sourceTree = "<group>"; };
+		FB0583342AE181E300A990F5 /* LiveCameraRepresentable2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveCameraRepresentable2.swift; sourceTree = "<group>"; };
+		FB37BB072ADF512000B622A9 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		FB62B75D2AD713E800594247 /* PredictionStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictionStatus.swift; sourceTree = "<group>"; };
 		FB62B7612AD7155500594247 /* mydata.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = mydata.geojson; sourceTree = "<group>"; };
 		FB62B7632AD7184500594247 /* Classification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classification.swift; sourceTree = "<group>"; };
-		FB62B7652AD71AF700594247 /* ClassificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ClassificationView.swift; path = Proyecto_Equipo1/Foundation/ModelViews/ClassificationView.swift; sourceTree = SOURCE_ROOT; };
 		FB62B7672AD71B0E00594247 /* ClassifierViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ClassifierViewModel.swift; path = Proyecto_Equipo1/Foundation/ModelViews/ClassifierViewModel.swift; sourceTree = SOURCE_ROOT; };
-		FB6A76412AD733C900816954 /* PredictionResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictionResultView.swift; sourceTree = "<group>"; };
-		FB6A76442AD7345900816954 /* PredictiveLabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PredictiveLabelView.swift; sourceTree = "<group>"; };
-		FB6A76462AD7346400816954 /* DisplayedContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayedContentView.swift; sourceTree = "<group>"; };
 		FB6B9D4A2ABCC3D80065BB70 /* LetrasSenias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetrasSenias.swift; sourceTree = "<group>"; };
 		FB6B9D4C2ABCC7BA0065BB70 /* DeletrearConSenias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeletrearConSenias.swift; sourceTree = "<group>"; };
 		FB75F1062AD46578009F442A /* LiveCameraRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveCameraRepresentable.swift; sourceTree = "<group>"; };
 		FB75F1082AD465A7009F442A /* LiveCameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveCameraController.swift; sourceTree = "<group>"; };
-		FB75F10B2AD46E76009F442A /* Slequipo1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Slequipo1.mlmodel; sourceTree = "<group>"; };
-		FB75F10C2AD46E76009F442A /* Snequipo1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Snequipo1.mlmodel; sourceTree = "<group>"; };
 		FB75F10F2AD46F9E009F442A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		FB75F1112AD46FCB009F442A /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		FB8FA9772AAFAC9D002E93E8 /* Proyecto_Equipo1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Proyecto_Equipo1.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,7 +140,6 @@
 		FB9C66242ACCE1A9004FFE8C /* LetraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetraView.swift; sourceTree = "<group>"; };
 		FB9C66262ACCE1E7004FFE8C /* LetrasViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetrasViewModel.swift; sourceTree = "<group>"; };
 		FB9C66282ACCE20A004FFE8C /* Letra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Letra.swift; sourceTree = "<group>"; };
-		FBA498112ADDBAF900711A11 /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebView.swift; path = ../../../../../../../../../../../../Desktop/WebView.swift; sourceTree = "<group>"; };
 		FBA498142ADDBB5300711A11 /* SI.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = SI.gif; sourceTree = "<group>"; };
 		FBA498152ADDBB5300711A11 /* SH.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = SH.gif; sourceTree = "<group>"; };
 		FBA498162ADDBB5300711A11 /* SJ.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = SJ.gif; sourceTree = "<group>"; };
@@ -133,10 +169,6 @@
 		FBA4982E2ADDBB5300711A11 /* SE.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = SE.gif; sourceTree = "<group>"; };
 		FBA4982F2ADDBB5300711A11 /* SD.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = SD.gif; sourceTree = "<group>"; };
 		FBA498302ADDBB5300711A11 /* SS.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = SS.gif; sourceTree = "<group>"; };
-		FBA4984E2ADDBE6200711A11 /* QuestionGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuestionGame.swift; path = ../../../../../../../../../../../../Downloads/QuestionGame.swift; sourceTree = "<group>"; };
-		FBA498502ADDBE8700711A11 /* ResultsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
-		FBA498522ADDBE8D00711A11 /* QuizManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizManager.swift; sourceTree = "<group>"; };
-		FBA498562ADDBEC200711A11 /* QuestionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuestionView.swift; path = ../../../../../../../../../../../../Downloads/QuestionView.swift; sourceTree = "<group>"; };
 		FBABCA1B2ABCD3AF005CE9AC /* MateSenias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MateSenias.swift; sourceTree = "<group>"; };
 		FBC50B9A2AAFC99E000E697E /* GameSelect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSelect.swift; sourceTree = "<group>"; };
 		FBC50BA02AAFCA77000E697E /* Oxygen-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oxygen-Regular.ttf"; sourceTree = "<group>"; };
@@ -154,11 +186,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB05830B2AE1710C00A990F5 /* NUMBERS_GIFs */ = {
+			isa = PBXGroup;
+			children = (
+				FB05831B2AE171FC00A990F5 /* S6.gif */,
+				FB05831F2AE1720D00A990F5 /* S4.gif */,
+				FB0583212AE1722700A990F5 /* S3.gif */,
+				FB0583192AE171F100A990F5 /* S7.gif */,
+				FB0583232AE1722B00A990F5 /* S2.gif */,
+				1159C6212AE189E0000C768E /* S1.gif */,
+				FB05831D2AE1720500A990F5 /* S5.gif */,
+				FB0583152AE171E100A990F5 /* S9.gif */,
+				FB0583172AE171E500A990F5 /* S8.gif */,
+				FB0583132AE171D200A990F5 /* S10.gif */,
+			);
+			path = NUMBERS_GIFs;
+			sourceTree = "<group>";
+		};
 		FB62B75F2AD714CB00594247 /* Data */ = {
 			isa = PBXGroup;
 			children = (
 				FB62B7612AD7155500594247 /* mydata.geojson */,
 				FB62B7632AD7184500594247 /* Classification.swift */,
+				FB05832C2AE17C2300A990F5 /* Classification2.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -167,27 +217,18 @@
 			isa = PBXGroup;
 			children = (
 				FB62B7672AD71B0E00594247 /* ClassifierViewModel.swift */,
-				FB62B7652AD71AF700594247 /* ClassificationView.swift */,
-				FB6A76412AD733C900816954 /* PredictionResultView.swift */,
+				FB05832E2AE17C5B00A990F5 /* ClassifierViewModel2.swift */,
 			);
 			path = ModelViews;
-			sourceTree = "<group>";
-		};
-		FB6A76432AD7342F00816954 /* PredictionViews */ = {
-			isa = PBXGroup;
-			children = (
-				FB6A76442AD7345900816954 /* PredictiveLabelView.swift */,
-				FB6A76462AD7346400816954 /* DisplayedContentView.swift */,
-			);
-			path = PredictionViews;
 			sourceTree = "<group>";
 		};
 		FB75F10A2AD46E4D009F442A /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				FB75F10B2AD46E76009F442A /* Slequipo1.mlmodel */,
-				FB75F10C2AD46E76009F442A /* Snequipo1.mlmodel */,
+				FB0583272AE1737B00A990F5 /* SeniasNumerosEq1.mlmodel */,
+				FB0583292AE175FE00A990F5 /* SeniasLetrasEq1.mlmodel */,
 				FB62B75D2AD713E800594247 /* PredictionStatus.swift */,
+				1103E6882AE0E1B70089FEF7 /* PredictionStatus2.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -211,6 +252,7 @@
 		FB8FA9792AAFAC9D002E93E8 /* Proyecto_Equipo1 */ = {
 			isa = PBXGroup;
 			children = (
+				FB05830B2AE1710C00A990F5 /* NUMBERS_GIFs */,
 				FBA498132ADDBB5300711A11 /* ABC_GIFs */,
 				FBC50B9F2AAFCA42000E697E /* Fonts */,
 				FB8FA97A2AAFAC9D002E93E8 /* Proyecto_Equipo1App.swift */,
@@ -218,22 +260,26 @@
 				FB9C25562AD9C62600A0509B /* LaunchScreenView.swift */,
 				FBC50B9A2AAFC99E000E697E /* GameSelect.swift */,
 				FB9C661E2ACCDE5E004FFE8C /* TabView2.swift */,
+				FB37BB072ADF512000B622A9 /* WebView.swift */,
 				FB9C66262ACCE1E7004FFE8C /* LetrasViewModel.swift */,
 				FB9C66222ACCE170004FFE8C /* LetrasView.swift */,
 				FB9C66242ACCE1A9004FFE8C /* LetraView.swift */,
 				FB9C66282ACCE20A004FFE8C /* Letra.swift */,
-				FBA498112ADDBAF900711A11 /* WebView.swift */,
+				1103E6802AE0DC660089FEF7 /* ProgressView.swift */,
+				1103E67E2AE0DC230089FEF7 /* Home.swift */,
 				FB6B9D4C2ABCC7BA0065BB70 /* DeletrearConSenias.swift */,
-				FBA4984E2ADDBE6200711A11 /* QuestionGame.swift */,
-				FBA498562ADDBEC200711A11 /* QuestionView.swift */,
-				FBA498522ADDBE8D00711A11 /* QuizManager.swift */,
-				FBA498502ADDBE8700711A11 /* ResultsView.swift */,
+				1103E67A2AE0DBC90089FEF7 /* AppDelegate.swift */,
+				1103E67C2AE0DBF50089FEF7 /* FinalView.swift */,
+				1103E6862AE0DD140089FEF7 /* SceneDelegate.swift */,
+				1103E6842AE0DCEB0089FEF7 /* quizModel.swift */,
+				1103E6822AE0DCAE0089FEF7 /* Quiz1.swift */,
 				FB6B9D4A2ABCC3D80065BB70 /* LetrasSenias.swift */,
 				11E580CB2ADCF75F005977A9 /* ShowSignView.swift */,
+				FB0583302AE17DC500A990F5 /* ShowSignView2.swift */,
 				FBABCA1B2ABCD3AF005CE9AC /* MateSenias.swift */,
+				1103E68C2AE0E3580089FEF7 /* LetrasSenias2.swift */,
 				FB75F10A2AD46E4D009F442A /* Model */,
 				FB62B75F2AD714CB00594247 /* Data */,
-				FB6A76432AD7342F00816954 /* PredictionViews */,
 				FBECD0E12AD452AC008EA64C /* Foundation */,
 				FB8FA97E2AAFAC9D002E93E8 /* Assets.xcassets */,
 				FB8FA9802AAFAC9D002E93E8 /* Preview Content */,
@@ -307,7 +353,9 @@
 			isa = PBXGroup;
 			children = (
 				FB75F1062AD46578009F442A /* LiveCameraRepresentable.swift */,
+				FB0583342AE181E300A990F5 /* LiveCameraRepresentable2.swift */,
 				FB75F1082AD465A7009F442A /* LiveCameraController.swift */,
+				FB0583322AE1810400A990F5 /* LiveCameraController2.swift */,
 			);
 			path = CameraViewControllers;
 			sourceTree = "<group>";
@@ -352,7 +400,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					FB8FA9762AAFAC9D002E93E8 = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -385,13 +433,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB05831E2AE1720500A990F5 /* S5.gif in Resources */,
 				FBA4983B2ADDBB5400711A11 /* SM.gif in Resources */,
+				FB05831A2AE171F100A990F5 /* S7.gif in Resources */,
 				FBA4984C2ADDBB5400711A11 /* SD.gif in Resources */,
 				FBA498392ADDBB5400711A11 /* SL.gif in Resources */,
 				FBA498372ADDBB5400711A11 /* SY.gif in Resources */,
 				FBA498342ADDBB5400711A11 /* SK.gif in Resources */,
+				FB0583162AE171E100A990F5 /* S9.gif in Resources */,
+				FB0583142AE171D200A990F5 /* S10.gif in Resources */,
+				1159C6222AE189E0000C768E /* S1.gif in Resources */,
 				FBA498312ADDBB5400711A11 /* SI.gif in Resources */,
 				FBC50BA12AAFCA77000E697E /* Oxygen-Regular.ttf in Resources */,
+				FB0583182AE171E600A990F5 /* S8.gif in Resources */,
+				FB05831C2AE171FC00A990F5 /* S6.gif in Resources */,
 				FBA4983C2ADDBB5400711A11 /* SLL.gif in Resources */,
 				FBA498432ADDBB5400711A11 /* SU.gif in Resources */,
 				FB62B7622AD7155500594247 /* mydata.geojson in Resources */,
@@ -404,6 +459,7 @@
 				FBA498402ADDBB5400711A11 /* SA.gif in Resources */,
 				FBA498362ADDBB5400711A11 /* SX.gif in Resources */,
 				FBA4984D2ADDBB5400711A11 /* SS.gif in Resources */,
+				FB0583202AE1720D00A990F5 /* S4.gif in Resources */,
 				FBA498332ADDBB5400711A11 /* SJ.gif in Resources */,
 				FB8FA9822AAFAC9D002E93E8 /* Preview Assets.xcassets in Resources */,
 				FBA498422ADDBB5400711A11 /* ST.gif in Resources */,
@@ -411,6 +467,8 @@
 				FBA4983A2ADDBB5400711A11 /* SZ.gif in Resources */,
 				FBA4983E2ADDBB5400711A11 /* SW.gif in Resources */,
 				FBA498322ADDBB5400711A11 /* SH.gif in Resources */,
+				FB0583242AE1722B00A990F5 /* S2.gif in Resources */,
+				FB0583222AE1722700A990F5 /* S3.gif in Resources */,
 				FBA4983D2ADDBB5400711A11 /* SÑ.gif in Resources */,
 				FBA4984B2ADDBB5400711A11 /* SE.gif in Resources */,
 				FBA4984A2ADDBB5400711A11 /* SR.gif in Resources */,
@@ -428,37 +486,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB6A76452AD7345900816954 /* PredictiveLabelView.swift in Sources */,
+				1103E67B2AE0DBC90089FEF7 /* AppDelegate.swift in Sources */,
 				FB75F1122AD46FCB009F442A /* Helpers.swift in Sources */,
 				FB62B7642AD7184500594247 /* Classification.swift in Sources */,
-				FBA498572ADDBEC200711A11 /* QuestionView.swift in Sources */,
 				FB62B75E2AD713E800594247 /* PredictionStatus.swift in Sources */,
 				FB62B7682AD71B0E00594247 /* ClassifierViewModel.swift in Sources */,
+				FB0583332AE1810400A990F5 /* LiveCameraController2.swift in Sources */,
 				FB75F1072AD46578009F442A /* LiveCameraRepresentable.swift in Sources */,
 				FB8FA97D2AAFAC9D002E93E8 /* ContentView.swift in Sources */,
-				FB75F10E2AD46E76009F442A /* Snequipo1.mlmodel in Sources */,
-				FB6A76422AD733C900816954 /* PredictionResultView.swift in Sources */,
+				1103E6852AE0DCEB0089FEF7 /* quizModel.swift in Sources */,
+				1103E68D2AE0E3580089FEF7 /* LetrasSenias2.swift in Sources */,
 				FB8FA97B2AAFAC9D002E93E8 /* Proyecto_Equipo1App.swift in Sources */,
 				FBC50B9B2AAFC99E000E697E /* GameSelect.swift in Sources */,
+				1103E67F2AE0DC230089FEF7 /* Home.swift in Sources */,
+				FB0583282AE1737B00A990F5 /* SeniasNumerosEq1.mlmodel in Sources */,
 				FB9C66252ACCE1A9004FFE8C /* LetraView.swift in Sources */,
-				FBA498512ADDBE8700711A11 /* ResultsView.swift in Sources */,
 				FB75F1092AD465A7009F442A /* LiveCameraController.swift in Sources */,
 				FB9C66272ACCE1E7004FFE8C /* LetrasViewModel.swift in Sources */,
-				FB62B7662AD71AF700594247 /* ClassificationView.swift in Sources */,
+				FB0583352AE181E300A990F5 /* LiveCameraRepresentable2.swift in Sources */,
 				FB9C66232ACCE170004FFE8C /* LetrasView.swift in Sources */,
 				FB9C66292ACCE20A004FFE8C /* Letra.swift in Sources */,
+				1103E6832AE0DCAE0089FEF7 /* Quiz1.swift in Sources */,
+				1103E67D2AE0DBF50089FEF7 /* FinalView.swift in Sources */,
+				1103E6892AE0E1B70089FEF7 /* PredictionStatus2.swift in Sources */,
 				11E580CC2ADCF760005977A9 /* ShowSignView.swift in Sources */,
-				FBA498532ADDBE8D00711A11 /* QuizManager.swift in Sources */,
-				FBA498122ADDBAF900711A11 /* WebView.swift in Sources */,
+				FB05832A2AE175FE00A990F5 /* SeniasLetrasEq1.mlmodel in Sources */,
 				FBABCA1C2ABCD3AF005CE9AC /* MateSenias.swift in Sources */,
-				FB75F10D2AD46E76009F442A /* Slequipo1.mlmodel in Sources */,
+				FB0583312AE17DC500A990F5 /* ShowSignView2.swift in Sources */,
+				FB37BB082ADF512000B622A9 /* WebView.swift in Sources */,
 				FB6B9D4B2ABCC3D80065BB70 /* LetrasSenias.swift in Sources */,
+				FB05832F2AE17C5B00A990F5 /* ClassifierViewModel2.swift in Sources */,
 				FB6B9D4D2ABCC7BA0065BB70 /* DeletrearConSenias.swift in Sources */,
 				FB9C25572AD9C62600A0509B /* LaunchScreenView.swift in Sources */,
+				1103E6872AE0DD140089FEF7 /* SceneDelegate.swift in Sources */,
 				FB9C661F2ACCDE5E004FFE8C /* TabView2.swift in Sources */,
-				FB6A76472AD7346400816954 /* DisplayedContentView.swift in Sources */,
 				FB75F1102AD46F9E009F442A /* Constants.swift in Sources */,
-				FBA4984F2ADDBE6300711A11 /* QuestionGame.swift in Sources */,
+				FB05832D2AE17C2400A990F5 /* Classification2.swift in Sources */,
+				1103E6812AE0DC660089FEF7 /* ProgressView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,6 +565,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -561,6 +626,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;

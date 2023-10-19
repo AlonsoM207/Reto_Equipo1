@@ -16,13 +16,13 @@ struct ShowSignView: View {
                 .foregroundColor(.white)
                 .cornerRadius(10)
                 .frame(width: 50, height: 50)
-                .offset(y: -50)
+                
             Text(labelData.label.capitalized)
                 .multilineTextAlignment(.center)
                 .foregroundColor(Color("Text"))
                 .font(Font
                     .custom("Oxygen-Regular", size: 20))
-                .offset(y: -50)
+                
         }
     }
 }
