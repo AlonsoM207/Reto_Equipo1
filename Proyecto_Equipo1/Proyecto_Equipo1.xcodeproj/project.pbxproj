@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1103E6792AE0DA640089FEF7 /* NumbersGIFs in Resources */ = {isa = PBXBuildFile; fileRef = 1103E6782AE0DA640089FEF7 /* NumbersGIFs */; };
 		1103E67B2AE0DBC90089FEF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1103E67A2AE0DBC90089FEF7 /* AppDelegate.swift */; };
 		1103E67D2AE0DBF50089FEF7 /* FinalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1103E67C2AE0DBF50089FEF7 /* FinalView.swift */; };
 		1103E67F2AE0DC230089FEF7 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1103E67E2AE0DC230089FEF7 /* Home.swift */; };
@@ -20,6 +19,16 @@
 		1103E68F2AE0E8420089FEF7 /* Sn2Equipo2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1103E68E2AE0E8420089FEF7 /* Sn2Equipo2.mlmodel */; };
 		1103E6912AE0E84C0089FEF7 /* CablesYEntradas.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1103E6902AE0E84B0089FEF7 /* CablesYEntradas.mlmodel */; };
 		11E580CC2ADCF760005977A9 /* ShowSignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E580CB2ADCF75F005977A9 /* ShowSignView.swift */; };
+		FB0583142AE171D200A990F5 /* S10.gif in Resources */ = {isa = PBXBuildFile; fileRef = FB0583132AE171D200A990F5 /* S10.gif */; };
+		FB0583162AE171E100A990F5 /* S9.gif in Resources */ = {isa = PBXBuildFile; fileRef = FB0583152AE171E100A990F5 /* S9.gif */; };
+		FB0583182AE171E600A990F5 /* S8.gif in Resources */ = {isa = PBXBuildFile; fileRef = FB0583172AE171E500A990F5 /* S8.gif */; };
+		FB05831A2AE171F100A990F5 /* S7.gif in Resources */ = {isa = PBXBuildFile; fileRef = FB0583192AE171F100A990F5 /* S7.gif */; };
+		FB05831C2AE171FC00A990F5 /* S6.gif in Resources */ = {isa = PBXBuildFile; fileRef = FB05831B2AE171FC00A990F5 /* S6.gif */; };
+		FB05831E2AE1720500A990F5 /* S5.gif in Resources */ = {isa = PBXBuildFile; fileRef = FB05831D2AE1720500A990F5 /* S5.gif */; };
+		FB0583202AE1720D00A990F5 /* S4.gif in Resources */ = {isa = PBXBuildFile; fileRef = FB05831F2AE1720D00A990F5 /* S4.gif */; };
+		FB0583222AE1722700A990F5 /* S3.gif in Resources */ = {isa = PBXBuildFile; fileRef = FB0583212AE1722700A990F5 /* S3.gif */; };
+		FB0583242AE1722B00A990F5 /* S2.gif in Resources */ = {isa = PBXBuildFile; fileRef = FB0583232AE1722B00A990F5 /* S2.gif */; };
+		FB0583262AE1722E00A990F5 /* S1.gif in Resources */ = {isa = PBXBuildFile; fileRef = FB0583252AE1722E00A990F5 /* S1.gif */; };
 		FB37BB082ADF512000B622A9 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB37BB072ADF512000B622A9 /* WebView.swift */; };
 		FB62B75E2AD713E800594247 /* PredictionStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB62B75D2AD713E800594247 /* PredictionStatus.swift */; };
 		FB62B7622AD7155500594247 /* mydata.geojson in Resources */ = {isa = PBXBuildFile; fileRef = FB62B7612AD7155500594247 /* mydata.geojson */; };
@@ -77,7 +86,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1103E6782AE0DA640089FEF7 /* NumbersGIFs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = NumbersGIFs; sourceTree = "<group>"; };
 		1103E67A2AE0DBC90089FEF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1103E67C2AE0DBF50089FEF7 /* FinalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalView.swift; sourceTree = "<group>"; };
 		1103E67E2AE0DC230089FEF7 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
@@ -90,6 +98,16 @@
 		1103E68E2AE0E8420089FEF7 /* Sn2Equipo2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Sn2Equipo2.mlmodel; sourceTree = "<group>"; };
 		1103E6902AE0E84B0089FEF7 /* CablesYEntradas.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = CablesYEntradas.mlmodel; sourceTree = "<group>"; };
 		11E580CB2ADCF75F005977A9 /* ShowSignView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowSignView.swift; sourceTree = "<group>"; };
+		FB0583132AE171D200A990F5 /* S10.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = S10.gif; sourceTree = "<group>"; };
+		FB0583152AE171E100A990F5 /* S9.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = S9.gif; sourceTree = "<group>"; };
+		FB0583172AE171E500A990F5 /* S8.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = S8.gif; sourceTree = "<group>"; };
+		FB0583192AE171F100A990F5 /* S7.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = S7.gif; sourceTree = "<group>"; };
+		FB05831B2AE171FC00A990F5 /* S6.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = S6.gif; sourceTree = "<group>"; };
+		FB05831D2AE1720500A990F5 /* S5.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = S5.gif; sourceTree = "<group>"; };
+		FB05831F2AE1720D00A990F5 /* S4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = S4.gif; sourceTree = "<group>"; };
+		FB0583212AE1722700A990F5 /* S3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = S3.gif; sourceTree = "<group>"; };
+		FB0583232AE1722B00A990F5 /* S2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = S2.gif; sourceTree = "<group>"; };
+		FB0583252AE1722E00A990F5 /* S1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = S1.gif; path = "../../../../../../../../../../../../../../../../Downloads/S_1-10/S1.gif"; sourceTree = "<group>"; };
 		FB37BB072ADF512000B622A9 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		FB62B75D2AD713E800594247 /* PredictionStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictionStatus.swift; sourceTree = "<group>"; };
 		FB62B7612AD7155500594247 /* mydata.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = mydata.geojson; sourceTree = "<group>"; };
@@ -158,6 +176,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB05830B2AE1710C00A990F5 /* NUMBERS_GIFs */ = {
+			isa = PBXGroup;
+			children = (
+				FB05831B2AE171FC00A990F5 /* S6.gif */,
+				FB05831F2AE1720D00A990F5 /* S4.gif */,
+				FB0583212AE1722700A990F5 /* S3.gif */,
+				FB0583192AE171F100A990F5 /* S7.gif */,
+				FB0583232AE1722B00A990F5 /* S2.gif */,
+				FB05831D2AE1720500A990F5 /* S5.gif */,
+				FB0583152AE171E100A990F5 /* S9.gif */,
+				FB0583252AE1722E00A990F5 /* S1.gif */,
+				FB0583172AE171E500A990F5 /* S8.gif */,
+				FB0583132AE171D200A990F5 /* S10.gif */,
+			);
+			path = NUMBERS_GIFs;
+			sourceTree = "<group>";
+		};
 		FB62B75F2AD714CB00594247 /* Data */ = {
 			isa = PBXGroup;
 			children = (
@@ -205,7 +240,7 @@
 		FB8FA9792AAFAC9D002E93E8 /* Proyecto_Equipo1 */ = {
 			isa = PBXGroup;
 			children = (
-				1103E6782AE0DA640089FEF7 /* NumbersGIFs */,
+				FB05830B2AE1710C00A990F5 /* NUMBERS_GIFs */,
 				FBA498132ADDBB5300711A11 /* ABC_GIFs */,
 				FBC50B9F2AAFCA42000E697E /* Fonts */,
 				FB8FA97A2AAFAC9D002E93E8 /* Proyecto_Equipo1App.swift */,
@@ -383,13 +418,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB05831E2AE1720500A990F5 /* S5.gif in Resources */,
 				FBA4983B2ADDBB5400711A11 /* SM.gif in Resources */,
+				FB05831A2AE171F100A990F5 /* S7.gif in Resources */,
 				FBA4984C2ADDBB5400711A11 /* SD.gif in Resources */,
 				FBA498392ADDBB5400711A11 /* SL.gif in Resources */,
 				FBA498372ADDBB5400711A11 /* SY.gif in Resources */,
 				FBA498342ADDBB5400711A11 /* SK.gif in Resources */,
+				FB0583162AE171E100A990F5 /* S9.gif in Resources */,
+				FB0583262AE1722E00A990F5 /* S1.gif in Resources */,
+				FB0583142AE171D200A990F5 /* S10.gif in Resources */,
 				FBA498312ADDBB5400711A11 /* SI.gif in Resources */,
 				FBC50BA12AAFCA77000E697E /* Oxygen-Regular.ttf in Resources */,
+				FB0583182AE171E600A990F5 /* S8.gif in Resources */,
+				FB05831C2AE171FC00A990F5 /* S6.gif in Resources */,
 				FBA4983C2ADDBB5400711A11 /* SLL.gif in Resources */,
 				FBA498432ADDBB5400711A11 /* SU.gif in Resources */,
 				FB62B7622AD7155500594247 /* mydata.geojson in Resources */,
@@ -402,6 +444,7 @@
 				FBA498402ADDBB5400711A11 /* SA.gif in Resources */,
 				FBA498362ADDBB5400711A11 /* SX.gif in Resources */,
 				FBA4984D2ADDBB5400711A11 /* SS.gif in Resources */,
+				FB0583202AE1720D00A990F5 /* S4.gif in Resources */,
 				FBA498332ADDBB5400711A11 /* SJ.gif in Resources */,
 				FB8FA9822AAFAC9D002E93E8 /* Preview Assets.xcassets in Resources */,
 				FBA498422ADDBB5400711A11 /* ST.gif in Resources */,
@@ -409,11 +452,12 @@
 				FBA4983A2ADDBB5400711A11 /* SZ.gif in Resources */,
 				FBA4983E2ADDBB5400711A11 /* SW.gif in Resources */,
 				FBA498322ADDBB5400711A11 /* SH.gif in Resources */,
+				FB0583242AE1722B00A990F5 /* S2.gif in Resources */,
+				FB0583222AE1722700A990F5 /* S3.gif in Resources */,
 				FBA4983D2ADDBB5400711A11 /* SÑ.gif in Resources */,
 				FBA4984B2ADDBB5400711A11 /* SE.gif in Resources */,
 				FBA4984A2ADDBB5400711A11 /* SR.gif in Resources */,
 				FBA498472ADDBB5400711A11 /* SRR.gif in Resources */,
-				1103E6792AE0DA640089FEF7 /* NumbersGIFs in Resources */,
 				FBA498382ADDBB5400711A11 /* SN.gif in Resources */,
 				FBA498492ADDBB5400711A11 /* SP.gif in Resources */,
 				FBA498442ADDBB5400711A11 /* SB.gif in Resources */,

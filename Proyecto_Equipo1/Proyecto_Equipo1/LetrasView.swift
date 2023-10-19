@@ -15,6 +15,7 @@ struct LetrasView: View {
         NavigationStack{
             ZStack{
                 Color("Primary")
+                    .edgesIgnoringSafeArea(.all)
                 ScrollView {
                     VStack(spacing: 16) {
                         if model.isLoading {
