@@ -15,6 +15,8 @@
 		1103E6832AE0DCAE0089FEF7 /* Quiz1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1103E6822AE0DCAE0089FEF7 /* Quiz1.swift */; };
 		1103E6852AE0DCEB0089FEF7 /* quizModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1103E6842AE0DCEB0089FEF7 /* quizModel.swift */; };
 		1103E6872AE0DD140089FEF7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1103E6862AE0DD140089FEF7 /* SceneDelegate.swift */; };
+		1103E6892AE0E1B70089FEF7 /* PredictionStatus2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1103E6882AE0E1B70089FEF7 /* PredictionStatus2.swift */; };
+		1103E68D2AE0E3580089FEF7 /* LetrasSenias2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1103E68C2AE0E3580089FEF7 /* LetrasSenias2.swift */; };
 		11E580CC2ADCF760005977A9 /* ShowSignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E580CB2ADCF75F005977A9 /* ShowSignView.swift */; };
 		FB37BB082ADF512000B622A9 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB37BB072ADF512000B622A9 /* WebView.swift */; };
 		FB62B75E2AD713E800594247 /* PredictionStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB62B75D2AD713E800594247 /* PredictionStatus.swift */; };
@@ -85,6 +87,8 @@
 		1103E6822AE0DCAE0089FEF7 /* Quiz1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz1.swift; sourceTree = "<group>"; };
 		1103E6842AE0DCEB0089FEF7 /* quizModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizModel.swift; sourceTree = "<group>"; };
 		1103E6862AE0DD140089FEF7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1103E6882AE0E1B70089FEF7 /* PredictionStatus2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictionStatus2.swift; sourceTree = "<group>"; };
+		1103E68C2AE0E3580089FEF7 /* LetrasSenias2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetrasSenias2.swift; sourceTree = "<group>"; };
 		11E580CB2ADCF75F005977A9 /* ShowSignView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowSignView.swift; sourceTree = "<group>"; };
 		FB37BB072ADF512000B622A9 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		FB62B75D2AD713E800594247 /* PredictionStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictionStatus.swift; sourceTree = "<group>"; };
@@ -181,6 +185,7 @@
 				FBA750542AE0CEF300195CD1 /* SL3Equipo1.mlmodel */,
 				FBA7503E2AE0B37C00195CD1 /* SN3Equipo1.mlmodel */,
 				FB62B75D2AD713E800594247 /* PredictionStatus.swift */,
+				1103E6882AE0E1B70089FEF7 /* PredictionStatus2.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -230,6 +235,7 @@
 				FB6B9D4A2ABCC3D80065BB70 /* LetrasSenias.swift */,
 				11E580CB2ADCF75F005977A9 /* ShowSignView.swift */,
 				FBABCA1B2ABCD3AF005CE9AC /* MateSenias.swift */,
+				1103E68C2AE0E3580089FEF7 /* LetrasSenias2.swift */,
 				FB75F10A2AD46E4D009F442A /* Model */,
 				FB62B75F2AD714CB00594247 /* Data */,
 				FBECD0E12AD452AC008EA64C /* Foundation */,
@@ -437,6 +443,7 @@
 				FB8FA97D2AAFAC9D002E93E8 /* ContentView.swift in Sources */,
 				FBA750512AE0C0DC00195CD1 /* dragtest.swift in Sources */,
 				1103E6852AE0DCEB0089FEF7 /* quizModel.swift in Sources */,
+				1103E68D2AE0E3580089FEF7 /* LetrasSenias2.swift in Sources */,
 				FB8FA97B2AAFAC9D002E93E8 /* Proyecto_Equipo1App.swift in Sources */,
 				FBA750552AE0CEF300195CD1 /* SL3Equipo1.mlmodel in Sources */,
 				FBC50B9B2AAFC99E000E697E /* GameSelect.swift in Sources */,
@@ -448,6 +455,7 @@
 				FB9C66292ACCE20A004FFE8C /* Letra.swift in Sources */,
 				1103E6832AE0DCAE0089FEF7 /* Quiz1.swift in Sources */,
 				1103E67D2AE0DBF50089FEF7 /* FinalView.swift in Sources */,
+				1103E6892AE0E1B70089FEF7 /* PredictionStatus2.swift in Sources */,
 				11E580CC2ADCF760005977A9 /* ShowSignView.swift in Sources */,
 				FBA7503F2AE0B37C00195CD1 /* SN3Equipo1.mlmodel in Sources */,
 				FBABCA1C2ABCD3AF005CE9AC /* MateSenias.swift in Sources */,

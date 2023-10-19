@@ -51,8 +51,27 @@ struct GameSelect: View {
                     }
                 }
                 .padding()
-                //.offset(y: 20)
-            
+                
+                NavigationLink(destination: LetrasSenias(labelData: Classification())){
+                    ZStack{
+                        Rectangle()
+                            .foregroundColor(Color("GameStack2"))
+                            .cornerRadius(20)
+                            .frame(width: 300, height: 125)
+                        
+                        VStack{
+                            Image("Letters")
+                                .resizable()
+                                .frame(width: 40, height: 40)
+                            Text("Letras")
+                                .foregroundColor(.white)
+                                .font(Font
+                                    .custom("Oxygen-Regular", size:30))
+                        }
+                    }
+                }
+                .padding()
+                
                 NavigationLink(destination: DeletrearConSenias()){
                     ZStack{
                         Rectangle()

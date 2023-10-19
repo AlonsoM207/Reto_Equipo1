@@ -20,7 +20,7 @@ struct ValuePerCategory {
 
 final class LiveCameraViewController: UIViewController {
     private var model: VNCoreMLModel?
-    private var model2: VNCoreMLModel?
+    //private var model2: VNCoreMLModel?
     private let visionResultsDisplayLayer = CALayer()
     // handleObservations returns back the Vision classification results - [ValuesPerCategory] and [String] (the sorted label names) are used for generating the barchart from the results
     private var handleObservations: (LivePredictionResults, String, String) -> ()
