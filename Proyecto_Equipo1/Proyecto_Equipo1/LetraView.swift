@@ -11,9 +11,11 @@ struct LetraView: View {
     let letra: Letra
     @ObservedObject var model: LetrasViewModel
     var body: some View {
-        
-        VStack{
-            WebViewWithGIF(urlString: letra.gifile)
+        ZStack{
+            Color("Primary")
+            VStack{
+                WebViewWithGIF(urlString: letra.gifile)
+            }
         }
     }
 }

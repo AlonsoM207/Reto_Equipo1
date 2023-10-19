@@ -30,7 +30,7 @@ struct LetrasSenias: View {
                             .frame(width: 350, height: 50)
                          
                             
-                        Text("Busca un número o letra")
+                        Text("Busca un número")
                             .multilineTextAlignment(.center)
                             .foregroundColor(Color("Text"))
                             .font(Font.custom("Oxygen-Regular", size: 30))

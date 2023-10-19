@@ -40,10 +40,10 @@ struct GameSelect: View {
                             .frame(width: 300, height: 125)
                         
                         VStack{
-                            Image("Sign")
+                            Image("Numbers")
                                 .resizable()
                                 .frame(width: 40, height: 40)
-                            Text("Aprender")
+                            Text("Números")
                                 .foregroundColor(.white)
                                 .font(Font
                                     .custom("Oxygen-Regular", size:30))

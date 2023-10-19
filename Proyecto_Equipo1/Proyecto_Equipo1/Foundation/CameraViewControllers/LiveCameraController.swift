@@ -20,6 +20,7 @@ struct ValuePerCategory {
 
 final class LiveCameraViewController: UIViewController {
     private var model: VNCoreMLModel?
+    private var model2: VNCoreMLModel?
     private let visionResultsDisplayLayer = CALayer()
     // handleObservations returns back the Vision classification results - [ValuesPerCategory] and [String] (the sorted label names) are used for generating the barchart from the results
     private var handleObservations: (LivePredictionResults, String, String) -> ()
@@ -58,7 +59,7 @@ final class LiveCameraViewController: UIViewController {
     /// - Parameter url: Model URL
     func runSession() throws {
         self.model = try? VNCoreMLModel(for: PredictionStatus().modelObject.model)
-        self.model = try? VNCoreMLModel(for: PredictionStatus().modelObject2.model)
+        //self.model2 = try? VNCoreMLModel(for: PredictionStatus().modelObject2.model)
         session.startRunning()
     }
     
@@ -140,9 +141,11 @@ extension LiveCameraViewController: AVCaptureVideoDataOutputSampleBufferDelegate
         
         guard
             let pixelBuffer = CMSampleBufferGetImageBuffer(sampleBuffer),
-            let model = model else {
+            let model = model
+            else {
                 return
             }
+            //let model2 = model2
         
         // process image and resize to scale with training image dimensions
         let cvImageBuffer = CMSampleBufferGetImageBuffer(sampleBuffer)!
@@ -154,7 +157,7 @@ extension LiveCameraViewController: AVCaptureVideoDataOutputSampleBufferDelegate
         let uiImageResized = uiImage.scaleAndCropImage(uiImage, toSize: CGSize(width: Constants.imgDim, height: Constants.imgDim))
         let newCiImage = CIImage(image: uiImageResized)
     
-        let request = VNCoreMLRequest(model: model) { request, error in
+        let request = VNCoreMLRequest(model: model){ request, error in
             let observations = request.results as? [VNClassificationObservation] ?? []
             
             let predictionResultsMap = observations.map {
@@ -163,7 +166,8 @@ extension LiveCameraViewController: AVCaptureVideoDataOutputSampleBufferDelegate
                     (basicValue: Double($0.confidence), displayValue: String(format: "%.0f%%", $0.confidence * 100))
                 )
             }
-            
+        
+                    
             let topResult = observations.first
             let compiledResults = Dictionary(uniqueKeysWithValues: predictionResultsMap)
             
@@ -171,14 +175,41 @@ extension LiveCameraViewController: AVCaptureVideoDataOutputSampleBufferDelegate
                 self.handleObservations(compiledResults, topResult!.identifier, String(format: "%.0f%%", topResult!.confidence * 100))
             }
         } // request
+        /*
+        let request2 = VNCoreMLRequest(model: model2) { request2, error in
+            let observations = request2.results as? [VNClassificationObservation] ?? []
+            
+            let predictionResultsMap = observations.map {
+                (
+                    $0.identifier,
+                    (basicValue: Double($0.confidence), displayValue: String(format: "%.0f%%", $0.confidence * 100))
+                )
+            }
         
+                    
+            let topResult = observations.first
+            let compiledResults = Dictionary(uniqueKeysWithValues: predictionResultsMap)
+            
+            DispatchQueue.main.async {
+                self.handleObservations(compiledResults, topResult!.identifier, String(format: "%.0f%%", topResult!.confidence * 100))
+            }
+        } // request
+        */
         request.imageCropAndScaleOption = .centerCrop
+        //request2.imageCropAndScaleOption = .centerCrop
         
         try? VNImageRequestHandler(
             ciImage: newCiImage!,
             orientation: exifOrientation(),
             options: [:]
         ).perform([request])
+        /*
+        try? VNImageRequestHandler(
+            ciImage: newCiImage!,
+            orientation: exifOrientation(),
+            options: [:]
+        ).perform([request2])
+         */
     }
 }
 
