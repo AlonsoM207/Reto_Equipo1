@@ -13,7 +13,7 @@ struct Home: View {
                 .edgesIgnoringSafeArea(.all)
             VStack(spacing: 20) {
                 
-                Text("Welcome to the quiz game")
+                Text("BIENVENIDO")
                     .scaleEffect(isBlinking ? 1.2 : 1)
                     .opacity(isBlinking ? 0 : 100)
                     .frame(width: 250, height: 50, alignment: .center)
@@ -25,10 +25,11 @@ struct Home: View {
                             self.isBlinking.toggle()
                         }
                     }
+                    .padding()
                 
                 //button to start the quiz
                 NavigationLink(destination: QuizView()) {
-                    Text("START QUIZ")
+                    Text("EMPEZAR QUIZ")
                         .scaleEffect(isBlinking ? 1.2 : 1)
                         .opacity(isBlinking ? 0 : 100)
                         .frame(width: 250, height: 50, alignment: .center)
@@ -40,7 +41,7 @@ struct Home: View {
                 HStack {
                     //display your score
                     NavigationLink(destination: ProgressView()) {
-                        Text("View Progress")
+                        Text("Ver Progreso")
                             .scaleEffect(isBlinking ? 1.2 : 1)
                             .opacity(isBlinking ? 0 : 100)
                             .frame(width: 250, height: 50, alignment: .center)

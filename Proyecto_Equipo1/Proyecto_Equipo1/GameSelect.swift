@@ -52,7 +52,7 @@ struct GameSelect: View {
                 }
                 .padding()
                 
-                NavigationLink(destination: LetrasSenias(labelData: Classification())){
+                NavigationLink(destination: LetrasSenias2(labelData: Classification())){
                     ZStack{
                         Rectangle()
                             .foregroundColor(Color("GameStack2"))

@@ -11,6 +11,7 @@ import SwiftUI
 struct Proyecto_Equipo1App: App {
     
     @StateObject private var predictionStatus = PredictionStatus()
+    @StateObject private var predictionStatus2 = PredictionStatus2()
     
     var body: some Scene {
         WindowGroup {

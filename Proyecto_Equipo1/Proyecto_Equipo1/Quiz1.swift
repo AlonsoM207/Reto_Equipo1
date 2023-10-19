@@ -63,8 +63,8 @@ struct QuizView: View {
             .shadow(color: Color(uiColor: .label).opacity(0.2), radius: 15)
             .navigationTitle("Quiz Game")
             .alert(isPresented: $showFinalView) {
-                Alert(title: Text("Quiz Completed"),
-                      message: Text("You've finished the quiz with a score of \(score)"),
+                Alert(title: Text("Quiz Completado"),
+                      message: Text("Tu puntuaión es: \(score)"),
                       primaryButton: .default(Text("Volver a tomar el quiz")) {
                         SaveScore(quiz: "myQuiz1", score: score)
                         randomQuizzes = Array(myQuiz1.shuffled().prefix(5))
@@ -72,7 +72,7 @@ struct QuizView: View {
                         currentQuestionIndex = 0
                         score = 0
                       },
-                      secondaryButton: .default(Text("Volver a GameSelect")) {
+                      secondaryButton: .default(Text("Volver a Menú")) {
                         self.navigateToGameSelect = true
                       }
                 )
