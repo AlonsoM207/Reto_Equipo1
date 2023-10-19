@@ -13,7 +13,7 @@ class PredictionStatus: ObservableObject {
     @Published var modelUrl = URL(fileURLWithPath: "")
     // TODO - replace with the name of your classifier
     //@Published var modelObject = SN3Equipo1()
-    @Published var modelObject = Sn2Equipo2()
+    @Published var modelObject = SeniasNumerosEq1()
     @Published var topLabel = ""
     @Published var topConfidence = ""
     
